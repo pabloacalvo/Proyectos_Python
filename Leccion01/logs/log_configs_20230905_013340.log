@@ -1,0 +1,924 @@
+2023-09-05 01:33:40.283001: Iniciando ejecucion del programa 
+2023-09-05 01:33:46.072434: Archivo CSV Creado! 
+2023-09-05 01:33:46.072434: Subnetting Creado! 
+2023-09-05 01:33:46.072434: Diccionario Creado! 
+2023-09-05 01:33:46.394005: Planilla jinja Creado! 
+2023-09-05 01:33:46.402979: Archivo TXT Creado! 
+2023-09-05 01:33:46.402979: Subnetting Creado! 
+2023-09-05 01:33:46.402979: Diccionario Creado! 
+2023-09-05 01:33:46.408963: Planilla jinja Creado! 
+2023-09-05 01:33:46.413794: Archivo TXT Creado! 
+2023-09-05 01:33:46.413794: Subnetting Creado! 
+2023-09-05 01:33:46.413794: Diccionario Creado! 
+2023-09-05 01:33:46.417783: Planilla jinja Creado! 
+2023-09-05 01:33:46.420778: Archivo TXT Creado! 
+2023-09-05 01:33:46.420778: Subnetting Creado! 
+2023-09-05 01:33:46.420778: Diccionario Creado! 
+2023-09-05 01:33:46.425762: Planilla jinja Creado! 
+2023-09-05 01:33:46.427956: Archivo TXT Creado! 
+2023-09-05 01:33:46.427956: Subnetting Creado! 
+2023-09-05 01:33:46.427956: Diccionario Creado! 
+2023-09-05 01:33:46.430749: Planilla jinja Creado! 
+2023-09-05 01:33:46.432743: Archivo TXT Creado! 
+2023-09-05 01:33:46.433740: Subnetting Creado! 
+2023-09-05 01:33:46.433740: Diccionario Creado! 
+2023-09-05 01:33:46.436762: Planilla jinja Creado! 
+2023-09-05 01:33:46.439727: Archivo TXT Creado! 
+2023-09-05 01:33:46.439727: Subnetting Creado! 
+2023-09-05 01:33:46.439727: Diccionario Creado! 
+2023-09-05 01:33:46.441721: Planilla jinja Creado! 
+2023-09-05 01:33:46.444711: Archivo TXT Creado! 
+2023-09-05 01:33:46.444711: Subnetting Creado! 
+2023-09-05 01:33:46.444711: Diccionario Creado! 
+2023-09-05 01:33:46.447703: Planilla jinja Creado! 
+2023-09-05 01:33:46.450695: Archivo TXT Creado! 
+2023-09-05 01:33:46.450695: Subnetting Creado! 
+2023-09-05 01:33:46.450695: Diccionario Creado! 
+2023-09-05 01:33:46.452690: Planilla jinja Creado! 
+2023-09-05 01:33:46.455564: Archivo TXT Creado! 
+2023-09-05 01:33:46.455681: Subnetting Creado! 
+2023-09-05 01:33:46.455681: Diccionario Creado! 
+2023-09-05 01:33:46.457677: Planilla jinja Creado! 
+2023-09-05 01:33:46.460751: Archivo TXT Creado! 
+2023-09-05 01:33:46.460751: Subnetting Creado! 
+2023-09-05 01:33:46.460751: Diccionario Creado! 
+2023-09-05 01:33:46.462663: Planilla jinja Creado! 
+2023-09-05 01:33:46.465292: Archivo TXT Creado! 
+2023-09-05 01:33:46.465292: Subnetting Creado! 
+2023-09-05 01:33:46.465292: Diccionario Creado! 
+2023-09-05 01:33:46.467649: Planilla jinja Creado! 
+2023-09-05 01:33:46.469705: Archivo TXT Creado! 
+2023-09-05 01:33:46.469705: Subnetting Creado! 
+2023-09-05 01:33:46.469705: Diccionario Creado! 
+2023-09-05 01:33:46.471639: Planilla jinja Creado! 
+2023-09-05 01:33:46.474692: Archivo TXT Creado! 
+2023-09-05 01:33:46.474692: Subnetting Creado! 
+2023-09-05 01:33:46.474692: Diccionario Creado! 
+2023-09-05 01:33:46.477691: Planilla jinja Creado! 
+2023-09-05 01:33:46.480643: Archivo TXT Creado! 
+2023-09-05 01:33:46.480643: Subnetting Creado! 
+2023-09-05 01:33:46.480643: Diccionario Creado! 
+2023-09-05 01:33:46.482610: Planilla jinja Creado! 
+2023-09-05 01:33:46.485601: Archivo TXT Creado! 
+2023-09-05 01:33:46.485601: Subnetting Creado! 
+2023-09-05 01:33:46.485601: Diccionario Creado! 
+2023-09-05 01:33:46.487596: Planilla jinja Creado! 
+2023-09-05 01:33:46.490588: Archivo TXT Creado! 
+2023-09-05 01:33:46.490923: Subnetting Creado! 
+2023-09-05 01:33:46.490923: Diccionario Creado! 
+2023-09-05 01:33:46.492582: Planilla jinja Creado! 
+2023-09-05 01:33:46.495575: Archivo TXT Creado! 
+2023-09-05 01:33:46.495575: Subnetting Creado! 
+2023-09-05 01:33:46.495575: Diccionario Creado! 
+2023-09-05 01:33:46.497570: Planilla jinja Creado! 
+2023-09-05 01:33:46.500686: Archivo TXT Creado! 
+2023-09-05 01:33:46.500686: Subnetting Creado! 
+2023-09-05 01:33:46.500686: Diccionario Creado! 
+2023-09-05 01:33:46.503553: Planilla jinja Creado! 
+2023-09-05 01:33:46.505742: Archivo TXT Creado! 
+2023-09-05 01:33:46.505742: Subnetting Creado! 
+2023-09-05 01:33:46.505742: Diccionario Creado! 
+2023-09-05 01:33:46.507542: Planilla jinja Creado! 
+2023-09-05 01:33:46.510563: Archivo TXT Creado! 
+2023-09-05 01:33:46.510563: Subnetting Creado! 
+2023-09-05 01:33:46.510563: Diccionario Creado! 
+2023-09-05 01:33:46.512796: Planilla jinja Creado! 
+2023-09-05 01:33:46.515693: Archivo TXT Creado! 
+2023-09-05 01:33:46.515693: Subnetting Creado! 
+2023-09-05 01:33:46.515693: Diccionario Creado! 
+2023-09-05 01:33:46.517715: Planilla jinja Creado! 
+2023-09-05 01:33:46.520155: Archivo TXT Creado! 
+2023-09-05 01:33:46.520155: Subnetting Creado! 
+2023-09-05 01:33:46.520155: Diccionario Creado! 
+2023-09-05 01:33:46.522699: Planilla jinja Creado! 
+2023-09-05 01:33:46.525313: Archivo TXT Creado! 
+2023-09-05 01:33:46.525313: Subnetting Creado! 
+2023-09-05 01:33:46.525313: Diccionario Creado! 
+2023-09-05 01:33:46.527659: Planilla jinja Creado! 
+2023-09-05 01:33:46.530650: Archivo TXT Creado! 
+2023-09-05 01:33:46.530650: Subnetting Creado! 
+2023-09-05 01:33:46.530650: Diccionario Creado! 
+2023-09-05 01:33:46.532645: Planilla jinja Creado! 
+2023-09-05 01:33:46.535637: Archivo TXT Creado! 
+2023-09-05 01:33:46.535665: Subnetting Creado! 
+2023-09-05 01:33:46.535665: Diccionario Creado! 
+2023-09-05 01:33:46.537632: Planilla jinja Creado! 
+2023-09-05 01:33:46.539626: Archivo TXT Creado! 
+2023-09-05 01:33:46.540425: Subnetting Creado! 
+2023-09-05 01:33:46.540425: Diccionario Creado! 
+2023-09-05 01:33:46.542618: Planilla jinja Creado! 
+2023-09-05 01:33:46.544910: Archivo TXT Creado! 
+2023-09-05 01:33:46.544910: Subnetting Creado! 
+2023-09-05 01:33:46.544910: Diccionario Creado! 
+2023-09-05 01:33:46.547605: Planilla jinja Creado! 
+2023-09-05 01:33:46.550098: Archivo TXT Creado! 
+2023-09-05 01:33:46.550098: Subnetting Creado! 
+2023-09-05 01:33:46.550098: Diccionario Creado! 
+2023-09-05 01:33:46.552592: Planilla jinja Creado! 
+2023-09-05 01:33:46.554763: Archivo TXT Creado! 
+2023-09-05 01:33:46.554763: Subnetting Creado! 
+2023-09-05 01:33:46.554763: Diccionario Creado! 
+2023-09-05 01:33:46.556581: Planilla jinja Creado! 
+2023-09-05 01:33:46.560570: Archivo TXT Creado! 
+2023-09-05 01:33:46.560728: Subnetting Creado! 
+2023-09-05 01:33:46.560728: Diccionario Creado! 
+2023-09-05 01:33:46.562565: Planilla jinja Creado! 
+2023-09-05 01:33:46.565557: Archivo TXT Creado! 
+2023-09-05 01:33:46.565792: Subnetting Creado! 
+2023-09-05 01:33:46.565792: Diccionario Creado! 
+2023-09-05 01:33:46.567552: Planilla jinja Creado! 
+2023-09-05 01:33:46.570081: Archivo TXT Creado! 
+2023-09-05 01:33:46.570081: Subnetting Creado! 
+2023-09-05 01:33:46.570081: Diccionario Creado! 
+2023-09-05 01:33:46.572538: Planilla jinja Creado! 
+2023-09-05 01:33:46.574992: Archivo TXT Creado! 
+2023-09-05 01:33:46.574992: Subnetting Creado! 
+2023-09-05 01:33:46.574992: Diccionario Creado! 
+2023-09-05 01:33:46.577526: Planilla jinja Creado! 
+2023-09-05 01:33:46.579805: Archivo TXT Creado! 
+2023-09-05 01:33:46.579805: Subnetting Creado! 
+2023-09-05 01:33:46.579805: Diccionario Creado! 
+2023-09-05 01:33:46.582513: Planilla jinja Creado! 
+2023-09-05 01:33:46.584892: Archivo TXT Creado! 
+2023-09-05 01:33:46.584892: Subnetting Creado! 
+2023-09-05 01:33:46.584892: Diccionario Creado! 
+2023-09-05 01:33:46.586501: Planilla jinja Creado! 
+2023-09-05 01:33:46.589493: Archivo TXT Creado! 
+2023-09-05 01:33:46.589493: Subnetting Creado! 
+2023-09-05 01:33:46.589493: Diccionario Creado! 
+2023-09-05 01:33:46.592485: Planilla jinja Creado! 
+2023-09-05 01:33:46.594660: Archivo TXT Creado! 
+2023-09-05 01:33:46.594660: Subnetting Creado! 
+2023-09-05 01:33:46.594660: Diccionario Creado! 
+2023-09-05 01:33:46.598469: Planilla jinja Creado! 
+2023-09-05 01:33:46.600464: Archivo TXT Creado! 
+2023-09-05 01:33:46.600464: Subnetting Creado! 
+2023-09-05 01:33:46.600464: Diccionario Creado! 
+2023-09-05 01:33:46.603456: Planilla jinja Creado! 
+2023-09-05 01:33:46.605565: Archivo TXT Creado! 
+2023-09-05 01:33:46.605565: Subnetting Creado! 
+2023-09-05 01:33:46.605565: Diccionario Creado! 
+2023-09-05 01:33:46.608442: Planilla jinja Creado! 
+2023-09-05 01:33:46.610667: Archivo TXT Creado! 
+2023-09-05 01:33:46.610667: Subnetting Creado! 
+2023-09-05 01:33:46.610667: Diccionario Creado! 
+2023-09-05 01:33:46.613058: Planilla jinja Creado! 
+2023-09-05 01:33:46.615012: Archivo TXT Creado! 
+2023-09-05 01:33:46.616009: Subnetting Creado! 
+2023-09-05 01:33:46.616009: Diccionario Creado! 
+2023-09-05 01:33:46.618004: Planilla jinja Creado! 
+2023-09-05 01:33:46.621082: Archivo TXT Creado! 
+2023-09-05 01:33:46.621082: Subnetting Creado! 
+2023-09-05 01:33:46.621082: Diccionario Creado! 
+2023-09-05 01:33:46.622990: Planilla jinja Creado! 
+2023-09-05 01:33:46.626135: Archivo TXT Creado! 
+2023-09-05 01:33:46.626135: Subnetting Creado! 
+2023-09-05 01:33:46.626135: Diccionario Creado! 
+2023-09-05 01:33:46.628974: Planilla jinja Creado! 
+2023-09-05 01:33:46.631118: Archivo TXT Creado! 
+2023-09-05 01:33:46.631118: Subnetting Creado! 
+2023-09-05 01:33:46.631118: Diccionario Creado! 
+2023-09-05 01:33:46.632964: Planilla jinja Creado! 
+2023-09-05 01:33:46.636252: Archivo TXT Creado! 
+2023-09-05 01:33:46.636252: Subnetting Creado! 
+2023-09-05 01:33:46.636252: Diccionario Creado! 
+2023-09-05 01:33:46.638948: Planilla jinja Creado! 
+2023-09-05 01:33:46.641346: Archivo TXT Creado! 
+2023-09-05 01:33:46.641346: Subnetting Creado! 
+2023-09-05 01:33:46.641346: Diccionario Creado! 
+2023-09-05 01:33:46.643934: Planilla jinja Creado! 
+2023-09-05 01:33:46.645929: Archivo TXT Creado! 
+2023-09-05 01:33:46.645929: Subnetting Creado! 
+2023-09-05 01:33:46.645929: Diccionario Creado! 
+2023-09-05 01:33:46.648921: Planilla jinja Creado! 
+2023-09-05 01:33:46.651191: Archivo TXT Creado! 
+2023-09-05 01:33:46.651191: Subnetting Creado! 
+2023-09-05 01:33:46.651191: Diccionario Creado! 
+2023-09-05 01:33:46.653719: Planilla jinja Creado! 
+2023-09-05 01:33:46.655902: Archivo TXT Creado! 
+2023-09-05 01:33:46.656248: Subnetting Creado! 
+2023-09-05 01:33:46.656248: Diccionario Creado! 
+2023-09-05 01:33:46.657897: Planilla jinja Creado! 
+2023-09-05 01:33:46.660965: Archivo TXT Creado! 
+2023-09-05 01:33:46.660965: Subnetting Creado! 
+2023-09-05 01:33:46.660965: Diccionario Creado! 
+2023-09-05 01:33:46.663308: Planilla jinja Creado! 
+2023-09-05 01:33:46.666182: Archivo TXT Creado! 
+2023-09-05 01:33:46.666182: Subnetting Creado! 
+2023-09-05 01:33:46.666182: Diccionario Creado! 
+2023-09-05 01:33:46.668868: Planilla jinja Creado! 
+2023-09-05 01:33:46.670862: Archivo TXT Creado! 
+2023-09-05 01:33:46.671388: Subnetting Creado! 
+2023-09-05 01:33:46.671388: Diccionario Creado! 
+2023-09-05 01:33:46.672857: Planilla jinja Creado! 
+2023-09-05 01:33:46.675988: Archivo TXT Creado! 
+2023-09-05 01:33:46.675988: Subnetting Creado! 
+2023-09-05 01:33:46.675988: Diccionario Creado! 
+2023-09-05 01:33:46.678315: Planilla jinja Creado! 
+2023-09-05 01:33:46.681163: Archivo TXT Creado! 
+2023-09-05 01:33:46.681163: Subnetting Creado! 
+2023-09-05 01:33:46.681163: Diccionario Creado! 
+2023-09-05 01:33:46.683828: Planilla jinja Creado! 
+2023-09-05 01:33:46.685997: Archivo TXT Creado! 
+2023-09-05 01:33:46.685997: Subnetting Creado! 
+2023-09-05 01:33:46.685997: Diccionario Creado! 
+2023-09-05 01:33:46.687817: Planilla jinja Creado! 
+2023-09-05 01:33:46.690861: Archivo TXT Creado! 
+2023-09-05 01:33:46.690861: Subnetting Creado! 
+2023-09-05 01:33:46.690861: Diccionario Creado! 
+2023-09-05 01:33:46.692998: Planilla jinja Creado! 
+2023-09-05 01:33:46.695940: Archivo TXT Creado! 
+2023-09-05 01:33:46.695940: Subnetting Creado! 
+2023-09-05 01:33:46.695940: Diccionario Creado! 
+2023-09-05 01:33:46.697790: Planilla jinja Creado! 
+2023-09-05 01:33:46.700783: Archivo TXT Creado! 
+2023-09-05 01:33:46.700938: Subnetting Creado! 
+2023-09-05 01:33:46.700938: Diccionario Creado! 
+2023-09-05 01:33:46.702778: Planilla jinja Creado! 
+2023-09-05 01:33:46.704773: Archivo TXT Creado! 
+2023-09-05 01:33:46.705536: Subnetting Creado! 
+2023-09-05 01:33:46.705536: Diccionario Creado! 
+2023-09-05 01:33:46.707827: Planilla jinja Creado! 
+2023-09-05 01:33:46.709759: Archivo TXT Creado! 
+2023-09-05 01:33:46.710040: Subnetting Creado! 
+2023-09-05 01:33:46.710040: Diccionario Creado! 
+2023-09-05 01:33:46.711753: Planilla jinja Creado! 
+2023-09-05 01:33:46.714694: Archivo TXT Creado! 
+2023-09-05 01:33:46.714694: Subnetting Creado! 
+2023-09-05 01:33:46.714694: Diccionario Creado! 
+2023-09-05 01:33:46.717116: Planilla jinja Creado! 
+2023-09-05 01:33:46.720192: Archivo TXT Creado! 
+2023-09-05 01:33:46.720192: Subnetting Creado! 
+2023-09-05 01:33:46.720192: Diccionario Creado! 
+2023-09-05 01:33:46.722102: Planilla jinja Creado! 
+2023-09-05 01:33:46.724097: Archivo TXT Creado! 
+2023-09-05 01:33:46.725094: Subnetting Creado! 
+2023-09-05 01:33:46.725094: Diccionario Creado! 
+2023-09-05 01:33:46.727089: Planilla jinja Creado! 
+2023-09-05 01:33:46.730082: Archivo TXT Creado! 
+2023-09-05 01:33:46.730082: Subnetting Creado! 
+2023-09-05 01:33:46.730082: Diccionario Creado! 
+2023-09-05 01:33:46.733110: Planilla jinja Creado! 
+2023-09-05 01:33:46.736405: Archivo TXT Creado! 
+2023-09-05 01:33:46.736709: Subnetting Creado! 
+2023-09-05 01:33:46.736709: Diccionario Creado! 
+2023-09-05 01:33:46.739397: Planilla jinja Creado! 
+2023-09-05 01:33:46.742389: Archivo TXT Creado! 
+2023-09-05 01:33:46.742389: Subnetting Creado! 
+2023-09-05 01:33:46.742389: Diccionario Creado! 
+2023-09-05 01:33:46.745381: Planilla jinja Creado! 
+2023-09-05 01:33:46.748372: Archivo TXT Creado! 
+2023-09-05 01:33:46.748372: Subnetting Creado! 
+2023-09-05 01:33:46.748372: Diccionario Creado! 
+2023-09-05 01:33:46.751488: Planilla jinja Creado! 
+2023-09-05 01:33:46.753490: Archivo TXT Creado! 
+2023-09-05 01:33:46.754114: Subnetting Creado! 
+2023-09-05 01:33:46.754114: Diccionario Creado! 
+2023-09-05 01:33:46.756569: Planilla jinja Creado! 
+2023-09-05 01:33:46.759530: Archivo TXT Creado! 
+2023-09-05 01:33:46.759530: Subnetting Creado! 
+2023-09-05 01:33:46.759530: Diccionario Creado! 
+2023-09-05 01:33:46.762644: Planilla jinja Creado! 
+2023-09-05 01:33:46.764640: Archivo TXT Creado! 
+2023-09-05 01:33:46.765161: Subnetting Creado! 
+2023-09-05 01:33:46.765161: Diccionario Creado! 
+2023-09-05 01:33:46.767632: Planilla jinja Creado! 
+2023-09-05 01:33:46.769721: Archivo TXT Creado! 
+2023-09-05 01:33:46.769721: Subnetting Creado! 
+2023-09-05 01:33:46.769721: Diccionario Creado! 
+2023-09-05 01:33:46.772658: Planilla jinja Creado! 
+2023-09-05 01:33:46.774987: Archivo TXT Creado! 
+2023-09-05 01:33:46.774987: Subnetting Creado! 
+2023-09-05 01:33:46.774987: Diccionario Creado! 
+2023-09-05 01:33:46.777573: Planilla jinja Creado! 
+2023-09-05 01:33:46.779971: Archivo TXT Creado! 
+2023-09-05 01:33:46.780845: Subnetting Creado! 
+2023-09-05 01:33:46.780845: Diccionario Creado! 
+2023-09-05 01:33:46.783101: Planilla jinja Creado! 
+2023-09-05 01:33:46.784959: Archivo TXT Creado! 
+2023-09-05 01:33:46.785721: Subnetting Creado! 
+2023-09-05 01:33:46.785721: Diccionario Creado! 
+2023-09-05 01:33:46.787948: Planilla jinja Creado! 
+2023-09-05 01:33:46.790718: Archivo TXT Creado! 
+2023-09-05 01:33:46.790718: Subnetting Creado! 
+2023-09-05 01:33:46.790718: Diccionario Creado! 
+2023-09-05 01:33:46.793002: Planilla jinja Creado! 
+2023-09-05 01:33:46.795334: Archivo TXT Creado! 
+2023-09-05 01:33:46.795334: Subnetting Creado! 
+2023-09-05 01:33:46.795334: Diccionario Creado! 
+2023-09-05 01:33:46.798098: Planilla jinja Creado! 
+2023-09-05 01:33:46.800315: Archivo TXT Creado! 
+2023-09-05 01:33:46.800315: Subnetting Creado! 
+2023-09-05 01:33:46.800315: Diccionario Creado! 
+2023-09-05 01:33:46.802087: Planilla jinja Creado! 
+2023-09-05 01:33:46.805699: Archivo TXT Creado! 
+2023-09-05 01:33:46.805719: Subnetting Creado! 
+2023-09-05 01:33:46.805719: Diccionario Creado! 
+2023-09-05 01:33:46.807845: Planilla jinja Creado! 
+2023-09-05 01:33:46.809743: Archivo TXT Creado! 
+2023-09-05 01:33:46.810514: Subnetting Creado! 
+2023-09-05 01:33:46.810514: Diccionario Creado! 
+2023-09-05 01:33:46.812733: Planilla jinja Creado! 
+2023-09-05 01:33:46.815091: Archivo TXT Creado! 
+2023-09-05 01:33:46.815091: Subnetting Creado! 
+2023-09-05 01:33:46.815091: Diccionario Creado! 
+2023-09-05 01:33:46.817115: Planilla jinja Creado! 
+2023-09-05 01:33:46.819082: Archivo TXT Creado! 
+2023-09-05 01:33:46.820037: Subnetting Creado! 
+2023-09-05 01:33:46.820037: Diccionario Creado! 
+2023-09-05 01:33:46.822105: Planilla jinja Creado! 
+2023-09-05 01:33:46.825063: Archivo TXT Creado! 
+2023-09-05 01:33:46.825063: Subnetting Creado! 
+2023-09-05 01:33:46.825063: Diccionario Creado! 
+2023-09-05 01:33:46.827097: Planilla jinja Creado! 
+2023-09-05 01:33:46.830050: Archivo TXT Creado! 
+2023-09-05 01:33:46.830050: Subnetting Creado! 
+2023-09-05 01:33:46.830050: Diccionario Creado! 
+2023-09-05 01:33:46.834070: Planilla jinja Creado! 
+2023-09-05 01:33:46.836065: Archivo TXT Creado! 
+2023-09-05 01:33:46.836065: Subnetting Creado! 
+2023-09-05 01:33:46.836999: Diccionario Creado! 
+2023-09-05 01:33:46.839238: Planilla jinja Creado! 
+2023-09-05 01:33:46.842218: Archivo TXT Creado! 
+2023-09-05 01:33:46.842218: Subnetting Creado! 
+2023-09-05 01:33:46.842218: Diccionario Creado! 
+2023-09-05 01:33:46.844326: Planilla jinja Creado! 
+2023-09-05 01:33:46.847205: Archivo TXT Creado! 
+2023-09-05 01:33:46.847205: Subnetting Creado! 
+2023-09-05 01:33:46.847205: Diccionario Creado! 
+2023-09-05 01:33:46.849228: Planilla jinja Creado! 
+2023-09-05 01:33:46.852192: Archivo TXT Creado! 
+2023-09-05 01:33:46.852192: Subnetting Creado! 
+2023-09-05 01:33:46.852192: Diccionario Creado! 
+2023-09-05 01:33:46.854216: Planilla jinja Creado! 
+2023-09-05 01:33:46.857388: Archivo TXT Creado! 
+2023-09-05 01:33:46.857388: Subnetting Creado! 
+2023-09-05 01:33:46.857388: Diccionario Creado! 
+2023-09-05 01:33:46.859203: Planilla jinja Creado! 
+2023-09-05 01:33:46.862165: Archivo TXT Creado! 
+2023-09-05 01:33:46.862165: Subnetting Creado! 
+2023-09-05 01:33:46.862165: Diccionario Creado! 
+2023-09-05 01:33:46.864193: Planilla jinja Creado! 
+2023-09-05 01:33:46.866187: Archivo TXT Creado! 
+2023-09-05 01:33:46.866872: Subnetting Creado! 
+2023-09-05 01:33:46.866872: Diccionario Creado! 
+2023-09-05 01:33:46.869177: Planilla jinja Creado! 
+2023-09-05 01:33:46.871268: Archivo TXT Creado! 
+2023-09-05 01:33:46.871268: Subnetting Creado! 
+2023-09-05 01:33:46.871268: Diccionario Creado! 
+2023-09-05 01:33:46.873169: Planilla jinja Creado! 
+2023-09-05 01:33:46.877125: Archivo TXT Creado! 
+2023-09-05 01:33:46.877125: Subnetting Creado! 
+2023-09-05 01:33:46.877125: Diccionario Creado! 
+2023-09-05 01:33:46.879171: Planilla jinja Creado! 
+2023-09-05 01:33:46.882113: Archivo TXT Creado! 
+2023-09-05 01:33:46.882740: Subnetting Creado! 
+2023-09-05 01:33:46.882740: Diccionario Creado! 
+2023-09-05 01:33:46.884729: Planilla jinja Creado! 
+2023-09-05 01:33:46.886720: Archivo TXT Creado! 
+2023-09-05 01:33:46.887524: Subnetting Creado! 
+2023-09-05 01:33:46.887524: Diccionario Creado! 
+2023-09-05 01:33:46.889713: Planilla jinja Creado! 
+2023-09-05 01:33:46.892178: Archivo TXT Creado! 
+2023-09-05 01:33:46.892178: Subnetting Creado! 
+2023-09-05 01:33:46.892178: Diccionario Creado! 
+2023-09-05 01:33:46.894826: Planilla jinja Creado! 
+2023-09-05 01:33:46.898140: Archivo TXT Creado! 
+2023-09-05 01:33:46.898140: Subnetting Creado! 
+2023-09-05 01:33:46.898140: Diccionario Creado! 
+2023-09-05 01:33:46.900745: Planilla jinja Creado! 
+2023-09-05 01:33:46.902812: Archivo TXT Creado! 
+2023-09-05 01:33:46.903781: Subnetting Creado! 
+2023-09-05 01:33:46.903781: Diccionario Creado! 
+2023-09-05 01:33:46.905802: Planilla jinja Creado! 
+2023-09-05 01:33:46.908422: Archivo TXT Creado! 
+2023-09-05 01:33:46.908422: Subnetting Creado! 
+2023-09-05 01:33:46.908422: Diccionario Creado! 
+2023-09-05 01:33:46.910789: Planilla jinja Creado! 
+2023-09-05 01:33:46.912922: Archivo TXT Creado! 
+2023-09-05 01:33:46.913914: Subnetting Creado! 
+2023-09-05 01:33:46.913914: Diccionario Creado! 
+2023-09-05 01:33:46.915936: Planilla jinja Creado! 
+2023-09-05 01:33:46.918974: Archivo TXT Creado! 
+2023-09-05 01:33:46.918974: Subnetting Creado! 
+2023-09-05 01:33:46.918974: Diccionario Creado! 
+2023-09-05 01:33:46.921890: Planilla jinja Creado! 
+2023-09-05 01:33:46.924128: Archivo TXT Creado! 
+2023-09-05 01:33:46.924128: Subnetting Creado! 
+2023-09-05 01:33:46.924128: Diccionario Creado! 
+2023-09-05 01:33:46.926877: Planilla jinja Creado! 
+2023-09-05 01:33:46.929220: Archivo TXT Creado! 
+2023-09-05 01:33:46.929220: Subnetting Creado! 
+2023-09-05 01:33:46.929220: Diccionario Creado! 
+2023-09-05 01:33:46.931930: Planilla jinja Creado! 
+2023-09-05 01:33:46.934545: Archivo TXT Creado! 
+2023-09-05 01:33:46.934545: Subnetting Creado! 
+2023-09-05 01:33:46.934545: Diccionario Creado! 
+2023-09-05 01:33:46.936912: Planilla jinja Creado! 
+2023-09-05 01:33:46.939968: Archivo TXT Creado! 
+2023-09-05 01:33:46.939968: Subnetting Creado! 
+2023-09-05 01:33:46.939968: Diccionario Creado! 
+2023-09-05 01:33:46.942986: Planilla jinja Creado! 
+2023-09-05 01:33:46.946066: Archivo TXT Creado! 
+2023-09-05 01:33:46.946066: Subnetting Creado! 
+2023-09-05 01:33:46.946066: Diccionario Creado! 
+2023-09-05 01:33:46.949094: Planilla jinja Creado! 
+2023-09-05 01:33:46.952311: Archivo TXT Creado! 
+2023-09-05 01:33:46.952311: Subnetting Creado! 
+2023-09-05 01:33:46.952311: Diccionario Creado! 
+2023-09-05 01:33:46.955076: Planilla jinja Creado! 
+2023-09-05 01:33:46.958461: Archivo TXT Creado! 
+2023-09-05 01:33:46.958461: Subnetting Creado! 
+2023-09-05 01:33:46.958461: Diccionario Creado! 
+2023-09-05 01:33:46.961171: Planilla jinja Creado! 
+2023-09-05 01:33:46.965269: Archivo TXT Creado! 
+2023-09-05 01:33:46.965269: Subnetting Creado! 
+2023-09-05 01:33:46.965269: Diccionario Creado! 
+2023-09-05 01:33:46.968204: Planilla jinja Creado! 
+2023-09-05 01:33:46.971229: Archivo TXT Creado! 
+2023-09-05 01:33:46.972195: Subnetting Creado! 
+2023-09-05 01:33:46.972195: Diccionario Creado! 
+2023-09-05 01:33:46.975218: Planilla jinja Creado! 
+2023-09-05 01:33:46.978178: Archivo TXT Creado! 
+2023-09-05 01:33:46.978178: Subnetting Creado! 
+2023-09-05 01:33:46.978178: Diccionario Creado! 
+2023-09-05 01:33:46.981207: Planilla jinja Creado! 
+2023-09-05 01:33:46.984901: Archivo TXT Creado! 
+2023-09-05 01:33:46.985917: Subnetting Creado! 
+2023-09-05 01:33:46.985917: Diccionario Creado! 
+2023-09-05 01:33:46.988888: Planilla jinja Creado! 
+2023-09-05 01:33:46.992845: Archivo TXT Creado! 
+2023-09-05 01:33:46.992864: Subnetting Creado! 
+2023-09-05 01:33:46.992864: Diccionario Creado! 
+2023-09-05 01:33:46.998860: Planilla jinja Creado! 
+2023-09-05 01:33:47.002819: Archivo TXT Creado! 
+2023-09-05 01:33:47.002851: Subnetting Creado! 
+2023-09-05 01:33:47.002851: Diccionario Creado! 
+2023-09-05 01:33:47.005810: Planilla jinja Creado! 
+2023-09-05 01:33:47.009797: Archivo TXT Creado! 
+2023-09-05 01:33:47.009797: Subnetting Creado! 
+2023-09-05 01:33:47.009797: Diccionario Creado! 
+2023-09-05 01:33:47.012865: Planilla jinja Creado! 
+2023-09-05 01:33:47.015846: Archivo TXT Creado! 
+2023-09-05 01:33:47.015846: Subnetting Creado! 
+2023-09-05 01:33:47.015846: Diccionario Creado! 
+2023-09-05 01:33:47.018919: Planilla jinja Creado! 
+2023-09-05 01:33:47.021827: Archivo TXT Creado! 
+2023-09-05 01:33:47.021827: Subnetting Creado! 
+2023-09-05 01:33:47.021827: Diccionario Creado! 
+2023-09-05 01:33:47.023823: Planilla jinja Creado! 
+2023-09-05 01:33:47.026814: Archivo TXT Creado! 
+2023-09-05 01:33:47.026814: Subnetting Creado! 
+2023-09-05 01:33:47.026814: Diccionario Creado! 
+2023-09-05 01:33:47.028810: Planilla jinja Creado! 
+2023-09-05 01:33:47.031829: Archivo TXT Creado! 
+2023-09-05 01:33:47.032319: Subnetting Creado! 
+2023-09-05 01:33:47.032319: Diccionario Creado! 
+2023-09-05 01:33:47.033929: Planilla jinja Creado! 
+2023-09-05 01:33:47.036815: Archivo TXT Creado! 
+2023-09-05 01:33:47.037093: Subnetting Creado! 
+2023-09-05 01:33:47.037093: Diccionario Creado! 
+2023-09-05 01:33:47.038810: Planilla jinja Creado! 
+2023-09-05 01:33:47.040815: Archivo TXT Creado! 
+2023-09-05 01:33:47.041611: Subnetting Creado! 
+2023-09-05 01:33:47.041611: Diccionario Creado! 
+2023-09-05 01:33:47.044768: Planilla jinja Creado! 
+2023-09-05 01:33:47.048023: Archivo TXT Creado! 
+2023-09-05 01:33:47.048023: Subnetting Creado! 
+2023-09-05 01:33:47.048023: Diccionario Creado! 
+2023-09-05 01:33:47.050778: Planilla jinja Creado! 
+2023-09-05 01:33:47.053126: Archivo TXT Creado! 
+2023-09-05 01:33:47.053126: Subnetting Creado! 
+2023-09-05 01:33:47.053126: Diccionario Creado! 
+2023-09-05 01:33:47.055765: Planilla jinja Creado! 
+2023-09-05 01:33:47.057850: Archivo TXT Creado! 
+2023-09-05 01:33:47.057850: Subnetting Creado! 
+2023-09-05 01:33:47.057850: Diccionario Creado! 
+2023-09-05 01:33:47.060811: Planilla jinja Creado! 
+2023-09-05 01:33:47.063812: Archivo TXT Creado! 
+2023-09-05 01:33:47.063812: Subnetting Creado! 
+2023-09-05 01:33:47.063812: Diccionario Creado! 
+2023-09-05 01:33:47.065825: Planilla jinja Creado! 
+2023-09-05 01:33:47.068861: Archivo TXT Creado! 
+2023-09-05 01:33:47.068861: Subnetting Creado! 
+2023-09-05 01:33:47.068861: Diccionario Creado! 
+2023-09-05 01:33:47.070832: Planilla jinja Creado! 
+2023-09-05 01:33:47.073777: Archivo TXT Creado! 
+2023-09-05 01:33:47.073777: Subnetting Creado! 
+2023-09-05 01:33:47.073777: Diccionario Creado! 
+2023-09-05 01:33:47.075774: Planilla jinja Creado! 
+2023-09-05 01:33:47.078766: Archivo TXT Creado! 
+2023-09-05 01:33:47.078766: Subnetting Creado! 
+2023-09-05 01:33:47.078766: Diccionario Creado! 
+2023-09-05 01:33:47.081757: Planilla jinja Creado! 
+2023-09-05 01:33:47.084015: Archivo TXT Creado! 
+2023-09-05 01:33:47.084015: Subnetting Creado! 
+2023-09-05 01:33:47.084015: Diccionario Creado! 
+2023-09-05 01:33:47.085839: Planilla jinja Creado! 
+2023-09-05 01:33:47.089139: Archivo TXT Creado! 
+2023-09-05 01:33:47.089139: Subnetting Creado! 
+2023-09-05 01:33:47.089139: Diccionario Creado! 
+2023-09-05 01:33:47.091805: Planilla jinja Creado! 
+2023-09-05 01:33:47.094152: Archivo TXT Creado! 
+2023-09-05 01:33:47.094152: Subnetting Creado! 
+2023-09-05 01:33:47.094152: Diccionario Creado! 
+2023-09-05 01:33:47.096791: Planilla jinja Creado! 
+2023-09-05 01:33:47.098787: Archivo TXT Creado! 
+2023-09-05 01:33:47.098787: Subnetting Creado! 
+2023-09-05 01:33:47.098787: Diccionario Creado! 
+2023-09-05 01:33:47.101841: Planilla jinja Creado! 
+2023-09-05 01:33:47.104876: Archivo TXT Creado! 
+2023-09-05 01:33:47.104876: Subnetting Creado! 
+2023-09-05 01:33:47.104876: Diccionario Creado! 
+2023-09-05 01:33:47.106763: Planilla jinja Creado! 
+2023-09-05 01:33:47.108863: Archivo TXT Creado! 
+2023-09-05 01:33:47.109829: Subnetting Creado! 
+2023-09-05 01:33:47.109829: Diccionario Creado! 
+2023-09-05 01:33:47.111849: Planilla jinja Creado! 
+2023-09-05 01:33:47.114734: Archivo TXT Creado! 
+2023-09-05 01:33:47.114734: Subnetting Creado! 
+2023-09-05 01:33:47.114734: Diccionario Creado! 
+2023-09-05 01:33:47.117624: Planilla jinja Creado! 
+2023-09-05 01:33:47.121032: Archivo TXT Creado! 
+2023-09-05 01:33:47.121032: Subnetting Creado! 
+2023-09-05 01:33:47.121032: Diccionario Creado! 
+2023-09-05 01:33:47.126227: Planilla jinja Creado! 
+2023-09-05 01:33:47.129224: Archivo TXT Creado! 
+2023-09-05 01:33:47.129224: Subnetting Creado! 
+2023-09-05 01:33:47.129224: Diccionario Creado! 
+2023-09-05 01:33:47.131356: Planilla jinja Creado! 
+2023-09-05 01:33:47.134871: Archivo TXT Creado! 
+2023-09-05 01:33:47.134871: Subnetting Creado! 
+2023-09-05 01:33:47.134871: Diccionario Creado! 
+2023-09-05 01:33:47.137347: Planilla jinja Creado! 
+2023-09-05 01:33:47.140331: Archivo TXT Creado! 
+2023-09-05 01:33:47.140331: Subnetting Creado! 
+2023-09-05 01:33:47.140331: Diccionario Creado! 
+2023-09-05 01:33:47.143331: Planilla jinja Creado! 
+2023-09-05 01:33:47.146289: Archivo TXT Creado! 
+2023-09-05 01:33:47.146853: Subnetting Creado! 
+2023-09-05 01:33:47.146853: Diccionario Creado! 
+2023-09-05 01:33:47.149320: Planilla jinja Creado! 
+2023-09-05 01:33:47.152412: Archivo TXT Creado! 
+2023-09-05 01:33:47.152412: Subnetting Creado! 
+2023-09-05 01:33:47.152412: Diccionario Creado! 
+2023-09-05 01:33:47.156406: Planilla jinja Creado! 
+2023-09-05 01:33:47.159398: Archivo TXT Creado! 
+2023-09-05 01:33:47.159398: Subnetting Creado! 
+2023-09-05 01:33:47.159398: Diccionario Creado! 
+2023-09-05 01:33:47.162392: Planilla jinja Creado! 
+2023-09-05 01:33:47.165350: Archivo TXT Creado! 
+2023-09-05 01:33:47.165350: Subnetting Creado! 
+2023-09-05 01:33:47.165350: Diccionario Creado! 
+2023-09-05 01:33:47.168372: Planilla jinja Creado! 
+2023-09-05 01:33:47.171376: Archivo TXT Creado! 
+2023-09-05 01:33:47.171376: Subnetting Creado! 
+2023-09-05 01:33:47.171376: Diccionario Creado! 
+2023-09-05 01:33:47.174326: Planilla jinja Creado! 
+2023-09-05 01:33:47.177317: Archivo TXT Creado! 
+2023-09-05 01:33:47.177317: Subnetting Creado! 
+2023-09-05 01:33:47.177317: Diccionario Creado! 
+2023-09-05 01:33:47.179347: Planilla jinja Creado! 
+2023-09-05 01:33:47.182389: Archivo TXT Creado! 
+2023-09-05 01:33:47.182389: Subnetting Creado! 
+2023-09-05 01:33:47.182389: Diccionario Creado! 
+2023-09-05 01:33:47.184323: Planilla jinja Creado! 
+2023-09-05 01:33:47.187470: Archivo TXT Creado! 
+2023-09-05 01:33:47.187470: Subnetting Creado! 
+2023-09-05 01:33:47.187470: Diccionario Creado! 
+2023-09-05 01:33:47.189312: Planilla jinja Creado! 
+2023-09-05 01:33:47.192309: Archivo TXT Creado! 
+2023-09-05 01:33:47.192517: Subnetting Creado! 
+2023-09-05 01:33:47.192517: Diccionario Creado! 
+2023-09-05 01:33:47.194926: Planilla jinja Creado! 
+2023-09-05 01:33:47.196297: Archivo TXT Creado! 
+2023-09-05 01:33:47.197263: Subnetting Creado! 
+2023-09-05 01:33:47.197263: Diccionario Creado! 
+2023-09-05 01:33:47.199435: Planilla jinja Creado! 
+2023-09-05 01:33:47.202429: Archivo TXT Creado! 
+2023-09-05 01:33:47.202429: Subnetting Creado! 
+2023-09-05 01:33:47.202429: Diccionario Creado! 
+2023-09-05 01:33:47.205418: Planilla jinja Creado! 
+2023-09-05 01:33:47.207412: Archivo TXT Creado! 
+2023-09-05 01:33:47.207663: Subnetting Creado! 
+2023-09-05 01:33:47.207663: Diccionario Creado! 
+2023-09-05 01:33:47.209407: Planilla jinja Creado! 
+2023-09-05 01:33:47.211921: Archivo TXT Creado! 
+2023-09-05 01:33:47.211921: Subnetting Creado! 
+2023-09-05 01:33:47.211921: Diccionario Creado! 
+2023-09-05 01:33:47.214398: Planilla jinja Creado! 
+2023-09-05 01:33:47.217193: Archivo TXT Creado! 
+2023-09-05 01:33:47.217193: Subnetting Creado! 
+2023-09-05 01:33:47.217193: Diccionario Creado! 
+2023-09-05 01:33:47.219502: Planilla jinja Creado! 
+2023-09-05 01:33:47.222721: Archivo TXT Creado! 
+2023-09-05 01:33:47.222721: Subnetting Creado! 
+2023-09-05 01:33:47.222721: Diccionario Creado! 
+2023-09-05 01:33:47.225478: Planilla jinja Creado! 
+2023-09-05 01:33:47.227876: Archivo TXT Creado! 
+2023-09-05 01:33:47.227876: Subnetting Creado! 
+2023-09-05 01:33:47.227876: Diccionario Creado! 
+2023-09-05 01:33:47.230437: Planilla jinja Creado! 
+2023-09-05 01:33:47.232821: Archivo TXT Creado! 
+2023-09-05 01:33:47.232821: Subnetting Creado! 
+2023-09-05 01:33:47.232821: Diccionario Creado! 
+2023-09-05 01:33:47.235454: Planilla jinja Creado! 
+2023-09-05 01:33:47.239445: Archivo TXT Creado! 
+2023-09-05 01:33:47.239445: Subnetting Creado! 
+2023-09-05 01:33:47.239445: Diccionario Creado! 
+2023-09-05 01:33:47.243436: Planilla jinja Creado! 
+2023-09-05 01:33:47.246791: Archivo TXT Creado! 
+2023-09-05 01:33:47.246791: Subnetting Creado! 
+2023-09-05 01:33:47.246791: Diccionario Creado! 
+2023-09-05 01:33:47.249420: Planilla jinja Creado! 
+2023-09-05 01:33:47.253046: Archivo TXT Creado! 
+2023-09-05 01:33:47.253046: Subnetting Creado! 
+2023-09-05 01:33:47.253046: Diccionario Creado! 
+2023-09-05 01:33:47.255402: Planilla jinja Creado! 
+2023-09-05 01:33:47.258509: Archivo TXT Creado! 
+2023-09-05 01:33:47.258509: Subnetting Creado! 
+2023-09-05 01:33:47.258509: Diccionario Creado! 
+2023-09-05 01:33:47.260479: Planilla jinja Creado! 
+2023-09-05 01:33:47.264167: Archivo TXT Creado! 
+2023-09-05 01:33:47.264456: Subnetting Creado! 
+2023-09-05 01:33:47.264456: Diccionario Creado! 
+2023-09-05 01:33:47.266569: Planilla jinja Creado! 
+2023-09-05 01:33:47.268668: Archivo TXT Creado! 
+2023-09-05 01:33:47.268668: Subnetting Creado! 
+2023-09-05 01:33:47.268668: Diccionario Creado! 
+2023-09-05 01:33:47.271634: Planilla jinja Creado! 
+2023-09-05 01:33:47.273648: Archivo TXT Creado! 
+2023-09-05 01:33:47.273648: Subnetting Creado! 
+2023-09-05 01:33:47.273648: Diccionario Creado! 
+2023-09-05 01:33:47.275547: Planilla jinja Creado! 
+2023-09-05 01:33:47.278539: Archivo TXT Creado! 
+2023-09-05 01:33:47.278539: Subnetting Creado! 
+2023-09-05 01:33:47.278539: Diccionario Creado! 
+2023-09-05 01:33:47.281533: Planilla jinja Creado! 
+2023-09-05 01:33:47.283733: Archivo TXT Creado! 
+2023-09-05 01:33:47.283733: Subnetting Creado! 
+2023-09-05 01:33:47.283733: Diccionario Creado! 
+2023-09-05 01:33:47.288652: Planilla jinja Creado! 
+2023-09-05 01:33:47.291645: Archivo TXT Creado! 
+2023-09-05 01:33:47.291645: Subnetting Creado! 
+2023-09-05 01:33:47.291645: Diccionario Creado! 
+2023-09-05 01:33:47.294638: Planilla jinja Creado! 
+2023-09-05 01:33:47.298627: Archivo TXT Creado! 
+2023-09-05 01:33:47.298627: Subnetting Creado! 
+2023-09-05 01:33:47.298627: Diccionario Creado! 
+2023-09-05 01:33:47.300655: Planilla jinja Creado! 
+2023-09-05 01:33:47.303909: Archivo TXT Creado! 
+2023-09-05 01:33:47.303909: Subnetting Creado! 
+2023-09-05 01:33:47.303909: Diccionario Creado! 
+2023-09-05 01:33:47.306604: Planilla jinja Creado! 
+2023-09-05 01:33:47.310594: Archivo TXT Creado! 
+2023-09-05 01:33:47.310594: Subnetting Creado! 
+2023-09-05 01:33:47.310594: Diccionario Creado! 
+2023-09-05 01:33:47.313693: Planilla jinja Creado! 
+2023-09-05 01:33:47.316715: Archivo TXT Creado! 
+2023-09-05 01:33:47.317201: Subnetting Creado! 
+2023-09-05 01:33:47.317201: Diccionario Creado! 
+2023-09-05 01:33:47.319916: Planilla jinja Creado! 
+2023-09-05 01:33:47.322690: Archivo TXT Creado! 
+2023-09-05 01:33:47.322690: Subnetting Creado! 
+2023-09-05 01:33:47.322690: Diccionario Creado! 
+2023-09-05 01:33:47.324764: Planilla jinja Creado! 
+2023-09-05 01:33:47.328137: Archivo TXT Creado! 
+2023-09-05 01:33:47.328137: Subnetting Creado! 
+2023-09-05 01:33:47.328137: Diccionario Creado! 
+2023-09-05 01:33:47.330826: Planilla jinja Creado! 
+2023-09-05 01:33:47.333673: Archivo TXT Creado! 
+2023-09-05 01:33:47.333923: Subnetting Creado! 
+2023-09-05 01:33:47.333923: Diccionario Creado! 
+2023-09-05 01:33:47.336452: Planilla jinja Creado! 
+2023-09-05 01:33:47.338827: Archivo TXT Creado! 
+2023-09-05 01:33:47.338827: Subnetting Creado! 
+2023-09-05 01:33:47.338827: Diccionario Creado! 
+2023-09-05 01:33:47.341690: Planilla jinja Creado! 
+2023-09-05 01:33:47.344609: Archivo TXT Creado! 
+2023-09-05 01:33:47.344609: Subnetting Creado! 
+2023-09-05 01:33:47.344609: Diccionario Creado! 
+2023-09-05 01:33:47.348597: Planilla jinja Creado! 
+2023-09-05 01:33:47.350690: Archivo TXT Creado! 
+2023-09-05 01:33:47.350690: Subnetting Creado! 
+2023-09-05 01:33:47.350690: Diccionario Creado! 
+2023-09-05 01:33:47.353584: Planilla jinja Creado! 
+2023-09-05 01:33:47.356577: Archivo TXT Creado! 
+2023-09-05 01:33:47.356577: Subnetting Creado! 
+2023-09-05 01:33:47.356577: Diccionario Creado! 
+2023-09-05 01:33:47.359634: Planilla jinja Creado! 
+2023-09-05 01:33:47.362624: Archivo TXT Creado! 
+2023-09-05 01:33:47.362624: Subnetting Creado! 
+2023-09-05 01:33:47.362624: Diccionario Creado! 
+2023-09-05 01:33:47.365030: Planilla jinja Creado! 
+2023-09-05 01:33:47.367840: Archivo TXT Creado! 
+2023-09-05 01:33:47.367840: Subnetting Creado! 
+2023-09-05 01:33:47.367840: Diccionario Creado! 
+2023-09-05 01:33:47.370659: Planilla jinja Creado! 
+2023-09-05 01:33:47.373595: Archivo TXT Creado! 
+2023-09-05 01:33:47.373595: Subnetting Creado! 
+2023-09-05 01:33:47.373595: Diccionario Creado! 
+2023-09-05 01:33:47.376641: Planilla jinja Creado! 
+2023-09-05 01:33:47.379581: Archivo TXT Creado! 
+2023-09-05 01:33:47.380577: Subnetting Creado! 
+2023-09-05 01:33:47.380577: Diccionario Creado! 
+2023-09-05 01:33:47.382666: Planilla jinja Creado! 
+2023-09-05 01:33:47.385606: Archivo TXT Creado! 
+2023-09-05 01:33:47.385606: Subnetting Creado! 
+2023-09-05 01:33:47.385606: Diccionario Creado! 
+2023-09-05 01:33:47.388685: Planilla jinja Creado! 
+2023-09-05 01:33:47.391680: Archivo TXT Creado! 
+2023-09-05 01:33:47.391680: Subnetting Creado! 
+2023-09-05 01:33:47.391680: Diccionario Creado! 
+2023-09-05 01:33:47.393673: Planilla jinja Creado! 
+2023-09-05 01:33:47.396800: Archivo TXT Creado! 
+2023-09-05 01:33:47.397783: Subnetting Creado! 
+2023-09-05 01:33:47.397783: Diccionario Creado! 
+2023-09-05 01:33:47.399763: Planilla jinja Creado! 
+2023-09-05 01:33:47.402754: Archivo TXT Creado! 
+2023-09-05 01:33:47.402754: Subnetting Creado! 
+2023-09-05 01:33:47.402754: Diccionario Creado! 
+2023-09-05 01:33:47.405746: Planilla jinja Creado! 
+2023-09-05 01:33:47.408012: Archivo TXT Creado! 
+2023-09-05 01:33:47.408012: Subnetting Creado! 
+2023-09-05 01:33:47.408012: Diccionario Creado! 
+2023-09-05 01:33:47.410732: Planilla jinja Creado! 
+2023-09-05 01:33:47.413764: Archivo TXT Creado! 
+2023-09-05 01:33:47.413764: Subnetting Creado! 
+2023-09-05 01:33:47.413764: Diccionario Creado! 
+2023-09-05 01:33:47.415761: Planilla jinja Creado! 
+2023-09-05 01:33:47.418811: Archivo TXT Creado! 
+2023-09-05 01:33:47.418811: Subnetting Creado! 
+2023-09-05 01:33:47.418811: Diccionario Creado! 
+2023-09-05 01:33:47.421782: Planilla jinja Creado! 
+2023-09-05 01:33:47.424804: Archivo TXT Creado! 
+2023-09-05 01:33:47.424804: Subnetting Creado! 
+2023-09-05 01:33:47.424804: Diccionario Creado! 
+2023-09-05 01:33:47.428790: Planilla jinja Creado! 
+2023-09-05 01:33:47.431780: Archivo TXT Creado! 
+2023-09-05 01:33:47.431780: Subnetting Creado! 
+2023-09-05 01:33:47.431780: Diccionario Creado! 
+2023-09-05 01:33:47.435769: Planilla jinja Creado! 
+2023-09-05 01:33:47.438761: Archivo TXT Creado! 
+2023-09-05 01:33:47.438761: Subnetting Creado! 
+2023-09-05 01:33:47.438761: Diccionario Creado! 
+2023-09-05 01:33:47.441555: Planilla jinja Creado! 
+2023-09-05 01:33:47.444530: Archivo TXT Creado! 
+2023-09-05 01:33:47.444530: Subnetting Creado! 
+2023-09-05 01:33:47.444530: Diccionario Creado! 
+2023-09-05 01:33:47.447613: Planilla jinja Creado! 
+2023-09-05 01:33:47.449600: Archivo TXT Creado! 
+2023-09-05 01:33:47.450597: Subnetting Creado! 
+2023-09-05 01:33:47.450597: Diccionario Creado! 
+2023-09-05 01:33:47.452592: Planilla jinja Creado! 
+2023-09-05 01:33:47.455698: Archivo TXT Creado! 
+2023-09-05 01:33:47.455698: Subnetting Creado! 
+2023-09-05 01:33:47.455698: Diccionario Creado! 
+2023-09-05 01:33:47.457721: Planilla jinja Creado! 
+2023-09-05 01:33:47.461410: Archivo TXT Creado! 
+2023-09-05 01:33:47.461410: Subnetting Creado! 
+2023-09-05 01:33:47.461410: Diccionario Creado! 
+2023-09-05 01:33:47.463579: Planilla jinja Creado! 
+2023-09-05 01:33:47.466326: Archivo TXT Creado! 
+2023-09-05 01:33:47.466757: Subnetting Creado! 
+2023-09-05 01:33:47.466757: Diccionario Creado! 
+2023-09-05 01:33:47.469317: Planilla jinja Creado! 
+2023-09-05 01:33:47.471403: Archivo TXT Creado! 
+2023-09-05 01:33:47.471403: Subnetting Creado! 
+2023-09-05 01:33:47.471403: Diccionario Creado! 
+2023-09-05 01:33:47.474395: Planilla jinja Creado! 
+2023-09-05 01:33:47.476420: Archivo TXT Creado! 
+2023-09-05 01:33:47.476420: Subnetting Creado! 
+2023-09-05 01:33:47.476420: Diccionario Creado! 
+2023-09-05 01:33:47.479413: Planilla jinja Creado! 
+2023-09-05 01:33:47.482468: Archivo TXT Creado! 
+2023-09-05 01:33:47.482468: Subnetting Creado! 
+2023-09-05 01:33:47.482468: Diccionario Creado! 
+2023-09-05 01:33:47.484455: Planilla jinja Creado! 
+2023-09-05 01:33:47.487446: Archivo TXT Creado! 
+2023-09-05 01:33:47.487446: Subnetting Creado! 
+2023-09-05 01:33:47.487446: Diccionario Creado! 
+2023-09-05 01:33:47.489542: Planilla jinja Creado! 
+2023-09-05 01:33:47.492509: Archivo TXT Creado! 
+2023-09-05 01:33:47.492789: Subnetting Creado! 
+2023-09-05 01:33:47.492789: Diccionario Creado! 
+2023-09-05 01:33:47.495500: Planilla jinja Creado! 
+2023-09-05 01:33:47.497494: Archivo TXT Creado! 
+2023-09-05 01:33:47.497494: Subnetting Creado! 
+2023-09-05 01:33:47.497494: Diccionario Creado! 
+2023-09-05 01:33:47.500518: Planilla jinja Creado! 
+2023-09-05 01:33:47.502595: Archivo TXT Creado! 
+2023-09-05 01:33:47.502595: Subnetting Creado! 
+2023-09-05 01:33:47.502595: Diccionario Creado! 
+2023-09-05 01:33:47.505572: Planilla jinja Creado! 
+2023-09-05 01:33:47.508581: Archivo TXT Creado! 
+2023-09-05 01:33:47.508581: Subnetting Creado! 
+2023-09-05 01:33:47.508581: Diccionario Creado! 
+2023-09-05 01:33:47.510811: Planilla jinja Creado! 
+2023-09-05 01:33:47.513626: Archivo TXT Creado! 
+2023-09-05 01:33:47.513626: Subnetting Creado! 
+2023-09-05 01:33:47.513626: Diccionario Creado! 
+2023-09-05 01:33:47.516713: Planilla jinja Creado! 
+2023-09-05 01:33:47.519705: Archivo TXT Creado! 
+2023-09-05 01:33:47.519937: Subnetting Creado! 
+2023-09-05 01:33:47.519937: Diccionario Creado! 
+2023-09-05 01:33:47.521699: Planilla jinja Creado! 
+2023-09-05 01:33:47.524759: Archivo TXT Creado! 
+2023-09-05 01:33:47.524759: Subnetting Creado! 
+2023-09-05 01:33:47.524759: Diccionario Creado! 
+2023-09-05 01:33:47.527748: Planilla jinja Creado! 
+2023-09-05 01:33:47.530062: Archivo TXT Creado! 
+2023-09-05 01:33:47.530062: Subnetting Creado! 
+2023-09-05 01:33:47.530062: Diccionario Creado! 
+2023-09-05 01:33:47.532737: Planilla jinja Creado! 
+2023-09-05 01:33:47.535767: Archivo TXT Creado! 
+2023-09-05 01:33:47.535767: Subnetting Creado! 
+2023-09-05 01:33:47.535767: Diccionario Creado! 
+2023-09-05 01:33:47.537722: Planilla jinja Creado! 
+2023-09-05 01:33:47.540849: Archivo TXT Creado! 
+2023-09-05 01:33:47.540849: Subnetting Creado! 
+2023-09-05 01:33:47.540849: Diccionario Creado! 
+2023-09-05 01:33:47.543709: Planilla jinja Creado! 
+2023-09-05 01:33:47.546698: Archivo TXT Creado! 
+2023-09-05 01:33:47.546698: Subnetting Creado! 
+2023-09-05 01:33:47.546698: Diccionario Creado! 
+2023-09-05 01:33:47.548719: Planilla jinja Creado! 
+2023-09-05 01:33:47.551685: Archivo TXT Creado! 
+2023-09-05 01:33:47.551685: Subnetting Creado! 
+2023-09-05 01:33:47.551685: Diccionario Creado! 
+2023-09-05 01:33:47.554679: Planilla jinja Creado! 
+2023-09-05 01:33:47.556744: Archivo TXT Creado! 
+2023-09-05 01:33:47.556744: Subnetting Creado! 
+2023-09-05 01:33:47.556744: Diccionario Creado! 
+2023-09-05 01:33:47.559663: Planilla jinja Creado! 
+2023-09-05 01:33:47.563653: Archivo TXT Creado! 
+2023-09-05 01:33:47.563653: Subnetting Creado! 
+2023-09-05 01:33:47.563653: Diccionario Creado! 
+2023-09-05 01:33:47.566674: Planilla jinja Creado! 
+2023-09-05 01:33:47.569637: Archivo TXT Creado! 
+2023-09-05 01:33:47.569637: Subnetting Creado! 
+2023-09-05 01:33:47.569637: Diccionario Creado! 
+2023-09-05 01:33:47.571998: Planilla jinja Creado! 
+2023-09-05 01:33:47.574694: Archivo TXT Creado! 
+2023-09-05 01:33:47.574694: Subnetting Creado! 
+2023-09-05 01:33:47.574694: Diccionario Creado! 
+2023-09-05 01:33:47.577615: Planilla jinja Creado! 
+2023-09-05 01:33:47.580608: Archivo TXT Creado! 
+2023-09-05 01:33:47.580658: Subnetting Creado! 
+2023-09-05 01:33:47.580658: Diccionario Creado! 
+2023-09-05 01:33:47.583288: Planilla jinja Creado! 
+2023-09-05 01:33:47.585596: Archivo TXT Creado! 
+2023-09-05 01:33:47.586138: Subnetting Creado! 
+2023-09-05 01:33:47.586138: Diccionario Creado! 
+2023-09-05 01:33:47.590583: Planilla jinja Creado! 
+2023-09-05 01:33:47.592810: Archivo TXT Creado! 
+2023-09-05 01:33:47.592810: Subnetting Creado! 
+2023-09-05 01:33:47.592810: Diccionario Creado! 
+2023-09-05 01:33:47.595569: Planilla jinja Creado! 
+2023-09-05 01:33:47.598716: Archivo TXT Creado! 
+2023-09-05 01:33:47.598716: Subnetting Creado! 
+2023-09-05 01:33:47.598716: Diccionario Creado! 
+2023-09-05 01:33:47.600741: Planilla jinja Creado! 
+2023-09-05 01:33:47.603792: Archivo TXT Creado! 
+2023-09-05 01:33:47.603792: Subnetting Creado! 
+2023-09-05 01:33:47.603792: Diccionario Creado! 
+2023-09-05 01:33:47.605868: Planilla jinja Creado! 
+2023-09-05 01:33:47.609792: Archivo TXT Creado! 
+2023-09-05 01:33:47.609792: Subnetting Creado! 
+2023-09-05 01:33:47.609792: Diccionario Creado! 
+2023-09-05 01:33:47.611773: Planilla jinja Creado! 
+2023-09-05 01:33:47.614867: Archivo TXT Creado! 
+2023-09-05 01:33:47.614867: Subnetting Creado! 
+2023-09-05 01:33:47.614867: Diccionario Creado! 
+2023-09-05 01:33:47.617813: Planilla jinja Creado! 
+2023-09-05 01:33:47.620861: Archivo TXT Creado! 
+2023-09-05 01:33:47.620861: Subnetting Creado! 
+2023-09-05 01:33:47.620861: Diccionario Creado! 
+2023-09-05 01:33:47.623854: Planilla jinja Creado! 
+2023-09-05 01:33:47.626845: Archivo TXT Creado! 
+2023-09-05 01:33:47.626845: Subnetting Creado! 
+2023-09-05 01:33:47.626845: Diccionario Creado! 
+2023-09-05 01:33:47.629884: Planilla jinja Creado! 
+2023-09-05 01:33:47.633137: Archivo TXT Creado! 
+2023-09-05 01:33:47.633137: Subnetting Creado! 
+2023-09-05 01:33:47.633137: Diccionario Creado! 
+2023-09-05 01:33:47.635904: Planilla jinja Creado! 
+2023-09-05 01:33:47.637965: Archivo TXT Creado! 
+2023-09-05 01:33:47.637965: Subnetting Creado! 
+2023-09-05 01:33:47.637965: Diccionario Creado! 
+2023-09-05 01:33:47.640884: Planilla jinja Creado! 
+2023-09-05 01:33:47.643966: Archivo TXT Creado! 
+2023-09-05 01:33:47.643966: Subnetting Creado! 
+2023-09-05 01:33:47.643966: Diccionario Creado! 
+2023-09-05 01:33:47.646957: Planilla jinja Creado! 
+2023-09-05 01:33:47.649138: Archivo TXT Creado! 
+2023-09-05 01:33:47.649138: Subnetting Creado! 
+2023-09-05 01:33:47.649138: Diccionario Creado! 
+2023-09-05 01:33:47.652016: Planilla jinja Creado! 
+2023-09-05 01:33:47.655053: Archivo TXT Creado! 
+2023-09-05 01:33:47.655053: Subnetting Creado! 
+2023-09-05 01:33:47.655053: Diccionario Creado! 
+2023-09-05 01:33:47.657065: Planilla jinja Creado! 
+2023-09-05 01:33:47.660688: Archivo TXT Creado! 
+2023-09-05 01:33:47.660688: Tiempo de ejecucion 0:00:07.378683! 
+2023-09-05 01:33:47.660688: Trabajo Finalizado! 
