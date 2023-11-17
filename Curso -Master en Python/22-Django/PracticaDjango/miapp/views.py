@@ -48,18 +48,30 @@ layout = """
 
 
 def index(request):
-    # se debe crear la ruta en en el server en el proyecto urls.py
-
-    html = """
-    <h1>Inicio</h1>
-    <p> Años hasta el 2050:</p>
-    <ul>
     """
-    year = 2021
-    while year <= 2050:
-        html += "<h3>Este es el: </h3>" + "<li>" + str(year) + "</li>"
-        year += 1
+    html =
+        <h1>Inicio</h1>
+        <p> Años hasta el 2050:</p>
+        <ul>
 
-    html += "</ul>"
+        year = 2021
+        while year <= 2050:
+            html += "<h3>Este es el: </h3>" + "<li>" + str(year) + "</li>"
+            year += 1
+
+        html += "</ul>"
+    """
+
+    year = 2021
+    hasta = range(year,2050)
+    nombre = 'Pablo Calvo'
+    lenguajes = ['JavaScript','Python','PHP','Java']
+
     # return HttpResponse(layout+html) #se concateca layout para que aparezca en todas las páginas
-    return render(request, 'index.html')
+    return render(request, 'index.html',{
+        'title':'Pagina de inicio',
+        'mi_variable': 'soy un dato que esta en la vista',
+        'nombre':nombre,
+        'lenguajes':lenguajes,
+        'years':hasta
+    })
