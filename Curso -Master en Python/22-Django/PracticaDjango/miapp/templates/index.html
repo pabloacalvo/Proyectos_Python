@@ -7,7 +7,16 @@
     <title></title>
 </head>
 <body>
+
+
+    {% comment 'Nota para el comentario' %}
+        
+        <h1>Hola hola hola</h1>
+    
+    {% endcomment %}
+
     {% block content %}
+<<<<<<< Updated upstream
     <!--Esto es un comentario en HTML-->
     {% comment 'Nota para el comentario' %}
         <h1> Hola soy un comentario</h1>
@@ -37,6 +46,12 @@
             {% endif %}
         {% endfor %}
     </ul>
+=======
+    <h1 class="title">Inicio</h1>
+
+    {% include "fecha_actual.html" with saludo="hola mundo desde plantilla" %}
+>>>>>>> Stashed changes
     {% endblock %}
+    
 </body>
 </html>

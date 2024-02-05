@@ -10,7 +10,27 @@
     {% block title %} Pagina de pruebas {% endblock %}
     {% block content %}
     <h1 class="title">Pagina de mi web</h1>
-    <p>Creado por Pablo Calvo</p>
+
+    <!--DJANGO TEMPLATES FILTER-->
+    <p>{{ "Creado por Pablo Calvoñ" |cut:"ñ" }}</p>
+
+    <p>
+        {{texto|default:"No hay nada"}}
+    </p>
+    <p>
+        {{lista|first}}
+        {{lista|join:','}}
+    </p>
+    <p>
+        {{lista|length}}
+    </p>
+        <p>
+            {{"<h1>Texto</h1> <strong>Pruebas</strong> <p>Hola</p>"|striptags|wordcount}}
+    </p>
+
+    {% load filters %}
+    {{"Pablo Calvo"|saludo|safe}}
+
     {% endblock %}
 </body>
 </html>

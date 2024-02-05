@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    {% extends 'layout.html' %}
+
+    {% block title %} Listado de articulos {% endblock %}
+    {% block content %}
+    <h1 class="title">Listado de articulos</h1>
+    <ul>
+    {% for articulo in articulos %}
+        <li>
+            <h4>{{articulo.id}} {{articulo.title}}</h4>
+            <span>{{articulo.created_at}}</span>
+            <p>
+                {{articulo.content}}
+                <br/>
+                <a href="{% url 'borrar' id=articulo.id %}">Eliminar</a>
+            </p>
+
+        <br/>
+        </li>
+        
+        
+
+    {% endfor %}
+    </ul>
+    {% endblock %}
+</body>
+</html>

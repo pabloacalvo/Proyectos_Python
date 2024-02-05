@@ -9,6 +9,7 @@
         {% endblock %}
         |Calvo Pablo
     </title>
+
     {% load static %}
     <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
 
@@ -25,16 +26,19 @@
     <nav>
          <ul>
             <li>
-                <a href="/inicio">Inicio</a>
+                <a href="{% url 'index' %}">Inicio</a>
             </li>
             <li>
-                <a href="/hola-mundo">Hola Mundo</a>
+                <a href="{% url 'articulos' %}">Articulos</a>
             </li>
             <li>
-                <a href="/web">Web</a>
+                <a href="{% url 'hola_mundo' %}">Hola Mundo</a>
             </li>
             <li>
-                <a href="/contacto">Contacto</a>
+                <a href="{% url 'pagina' %}">Web</a>
+            </li>
+            <li>
+                <a href="{% url 'contacto' 'Pablo' 'Calvo' %}">Contacto</a>
             </li>
     </ul>
     </nav>
@@ -56,6 +60,6 @@
 
 </body>
 <footer>
-    Master en Python &copy; Pablo Calvo
+    Master en Python &copy; Pablo Calvo - {% now "d/m/Y" %}
 </footer>
 </html>
