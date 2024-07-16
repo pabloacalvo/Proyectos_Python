@@ -1,5 +1,9 @@
 from django.shortcuts import render, HttpResponse, redirect
-from miapp.models import Article
+from .models import Article
+from django.db.models import Q
+from .forms import FormArticle, RegisterForm
+from django.contrib import messages
+from django.contrib.auth.forms import UserCreationForm
 
 # Create your views here.
 # MVC= MODELO VISTA CONTROLADOR se ejecutan acciones (métodos) es lo mismo que MVT solo que a la vista se la llama template y al controlador vista.
@@ -71,7 +75,7 @@ def index(request):
     lenguajes = ['JavaScript','Python','PHP','Java']
 
     # return HttpResponse(layout+html) #se concateca layout para que aparezca en todas las páginas
-<<<<<<< Updated upstream
+
     return render(request, 'index.html',{
         'title':'Pagina de inicio',
         'mi_variable': 'soy un dato que esta en la vista',
@@ -79,8 +83,8 @@ def index(request):
         'lenguajes':lenguajes,
         'years':hasta
     })
-=======
-    return render(request, 'index.html')
+
+    #return render(request, 'index.html')
 
 
 def crear_articulo(request, title,content,public):
@@ -93,6 +97,56 @@ def crear_articulo(request, title,content,public):
     articulo.save()
     return HttpResponse(f"Articulo creado: {articulo.title} - {articulo.content}")
 
+def save_article(request):
+    if request.method == 'POST':
+        title = request.POST['title']
+        content = request.POST['content']
+        public = request.POST['public']
+
+        if len(title) <= 5:
+            return HttpResponse('El titulo es muy pequeño')
+
+        articulo = Article(
+            title=title,
+            content=content,
+            public=public
+        )
+        articulo.save()
+        return HttpResponse(f"Articulo creado: {articulo.title} - {articulo.content}")
+    else:
+        return HttpResponse('<h2>No se ha podido crear el articulo</h2>')
+
+
+
+
+def create_article(request):
+    return render(request, 'create_article.html')
+
+def create_full_article(request):
+
+    if request.method == 'POST':
+        formulario = FormArticle(request.POST)
+
+        if formulario.is_valid():
+            data_form = formulario.cleaned_data
+            title = data_form.get('title')
+            content = data_form['content']
+            public = data_form['public']
+
+            articulo = Article(
+                title=title,
+                content=content,
+                public=public
+            )
+            articulo.save()
+            # Crear mensaje flash (sesion que solo se muestra 1 vez)
+            messages.success(request, f'El articulo se creo correctamente {articulo.id}')
+
+            return redirect('articulos')
+    else:
+        formulario = FormArticle()
+
+    return render(request, 'create_full_article.html', {'form': formulario})
 
 def articulo(request):
     try:
@@ -117,18 +171,33 @@ def editar_articulo(request, id):
 
 def articulos(request):
 
+    # UTILIZAR ESTA CAPA DE ABSTRACCION DE DJANGO TIENE COMO BENEIFICIO QUE AL CAMBIAR DE MOTOR DE BASE DE DATOS
+    # NO VA SER NECESARIO UN CAMBIO EN EL CODIO
     #todos
-    articulos = Article.objects.all()
+    articulos = Article.objects.all().order_by('-id')
+
     #ordenados por
     #articulos = Article.objects.order_by('id')
     #limit
     #articulos = Article.objects.order_by('id')[3:4]
+    #articulos = Article.objects.filter(Q(title__contains='escencial') | Q(title__contains='1'))
 
-    """ __lookup type es una opcion mas para aplicar al filtro en este caso __contains equivale al LIKE en sql,
+    """ __lookup type es una opcion mas para aplicar al filtro ejemplos:
+        __contains equivale al LIKE en sql,
         __exact valor exacto
         __iexact valor exacto pero no es key sensitive
+        __gt mas grande que
+        __gte mayores o iguales
+        __lt menores que
+        __lte menores o iguales que
     """
-    articulos = Article.objects.filter(id__gt=8)
+    #articulos = Article.objects.filter(title='Primer articulo')
+    #articulos = Article.objects.filter(id__gt=8)
+
+    #articulos = Article.objects.filter(title__contains="Articulo").exclude(public=False)
+
+    # FILTROS UTILIZANDO SQL DIRECTAMENTE
+    #articulos_sql = Article.objects.raw("SELECT * FROM miapp_article WHERE title='Producto escencial'")
 
     return render(request, 'articulos.html',{
         'articulos':articulos
@@ -140,4 +209,16 @@ def borrar_articulo(request,id):
     articulo.delete()
 
     return redirect('articulos')
->>>>>>> Stashed changes
+
+def register_page(request):
+    register_form = RegisterForm()
+    if request.method == 'POST':
+        register_form = RegisterForm(request.POST)
+        if register_form.is_valid():
+            register_form.save()
+            return redirect('/inicio')
+
+    return render(request, 'register.html', {
+        'title':'Registro',
+        'register_form':register_form
+    })

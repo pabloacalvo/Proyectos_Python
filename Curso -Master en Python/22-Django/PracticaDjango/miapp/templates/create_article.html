@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    {% extends 'layout.html' %}
+
+    {% block title %} Formulario en Django {% endblock %}
+    {% block content %}
+    <h1 class="title">Formulario en Django</h1>
+
+    <form action="{% url 'save' %}" method="POST">
+
+        {% csrf_token %}
+        <label for="title">Titulo</label>
+        <input type="text" name="title" placeholder="Introduce el titulo"/>
+        <label for="content">Contenido</label>
+        <textarea type="text" name="content"></textarea>
+        <label for="public">Estado de publicacion</label>
+        <select name="public">
+            <option value="1">Si</option>
+            <option value="0">No</option>
+        </select>
+        <input type="submit" value="Guardar"/>
+    </form>
+
+    {% endblock %}
+</body>
+</html>

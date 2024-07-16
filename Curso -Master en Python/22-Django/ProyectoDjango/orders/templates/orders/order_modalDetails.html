@@ -1,0 +1,47 @@
+<div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h1 class="modal-title fs-5" id="staticBackdropLabel">Detalle del pedido Nro: {{ order_id }}</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form method="post" action="{% url 'orders:edit_order' order_id %}">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <table class="table table-striped table-hover">
+                    <thead class="table-warning">
+                    <tr>
+                        <th style="width: 50px;">ID</th>
+                        <th style="width: 150px;">Producto</th>
+                        <th style="width: 100px;">Cantidad</th>
+                        <th style="width: 120px;">Precio unitario</th>
+                        <th style="width: 120px;">Total</th>
+                        <th style="width: 60px;">Eliminar</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {{ formset.management_form }}
+                    {{ formset.errors }}
+                    {% for form in formset %}
+                        <tr>
+                            <td>{{ form.instance.article.id }}</td>
+                            <td>{{ form.instance.article }}</td>
+                            <td>{{ form.quantity }}</td>
+                            <td>{{ form.price }}</td>
+                            <td>{{ form.instance.calcular_total }}</td>
+                            <td><a href="#" class="btn btn-danger btn-delete"><i class="bi bi-trash3 delete-icono"></i></a></td>
+                            <!-- Campos ocultos para article y id -->
+                            <input type="hidden" name="{{ form.prefix }}-id" value="{{ form.instance.id }}">
+                            <input type="hidden" name="{{ form.prefix }}-article" value="{{ form.instance.article.id }}">
+                        </tr>
+                    {% endfor %}
+                    </tbody>
+                </table>
+                <button type="submit" class="btn btn-primary">Guardar cambios</button>
+            </form>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+    </div>
+</div>

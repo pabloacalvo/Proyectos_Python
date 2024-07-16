@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+{% extends 'layout/layout_bootstrap.html' %}
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    {% block title %}
+        Pedidos
+    {% endblock %}
+</head>
+<body>
+{% block seccion %}
+    PEDIDOS
+{% endblock %}
+{% block articleTitle %}
+{% endblock %}
+{% block content %}
+    <table class="table mb-5">
+        <thead>
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Fecha del pedido</th>
+                <th scope="col">Cliente</th>
+                <th scope="col">Descuento</th>
+                <th scope="col">Total</th>
+                <th scope="col">Estado</th>
+                <th scope="col">Ultima modificacion</th>
+                <th scope="col"></th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for order in orders %}
+{#                {% if order.status.id == 1 %}#}
+                    {% if order.status.id != '' %}
+                    <tr class="">
+                        <td>{{ order.id }}</td>
+                        <td>{{ order.created_at|date:"d/m/Y " }}</td>
+                        <td>{{ order.client.name }}</td>
+                        {% if order.discount > 0 %}
+                            <td>%{{ order.discount }} $: {{ order.get_discountAmount }}</td>
+                        {% else %}
+                            <td>%{{ order.discount }}</td>
+                        {% endif %}
+                        <td>$ {{ order.total }}</td>
+                        <td>{{ order.status }}</td>
+                        <td>{{ order.updated_at|date:"d/m/Y G:i:s" }}</td>
+                        <td>
+                            <div>
+                                <a href="#"><i class="bi bi-check-circle entregar-pedido-icon"></i></a>
+                                <a href="#" class="editar-pedido" data-url="{% url 'orders:edit_order' order.id %}"><i class="bi bi-pencil editar-pedido-icon"></i></a>
+                                <a href="#" class="eliminar-pedido" data-url="{% url 'orders:delete_order' order.id %}"><i class="bi bi-x-circle eliminar-pedido-icon"></i></a>
+                            </div>
+                        </td>
+                    </tr>
+                {% endif %}
+            {% endfor %}
+        </tbody>
+    </table>
+ <!-- Modal para detalles del pedido -->
+<div class="modal fade" id="modalDetail" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+</div>
+ <!-- Modal para confirmación de eliminación -->
+<div class="modal fade" id="modalConfirmDelete" tabindex="-1" aria-labelledby="modalConfirmDeleteLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalConfirmDeleteLabel">Confirmar eliminación</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                ¿Estás seguro de que deseas eliminar este pedido?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cancelar</button>
+                <button type="button" class="btn btn-danger" id="confirmDeleteBtn">Eliminar</button>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+{% block extrajs %}
+    <script type="text/javascript">
+    // Evitar conflicto con el $
+    var $ = jQuery.noConflict()
+    function modal_open(url){
+        $('#modalDetail').load(url, function(){
+            $(this).modal('show');
+        })
+    }
+    // Evento de clic para los íconos de editar
+    $(document).on('click', '.editar-pedido', function(e) {
+        e.preventDefault(); // Prevenir el comportamiento por defecto del enlace
+        var url = $(this).data('url');
+        modal_open(url);
+    });
+
+    // Variables para el URL de eliminación y el botón de confirmación
+    var deleteUrl = '';
+
+    // Evento de clic para los íconos de eliminar
+    $(document).on('click', '.eliminar-pedido', function(e) {
+        e.preventDefault(); // Prevenir el comportamiento por defecto del enlace
+        deleteUrl = $(this).data('url');
+        $('#modalConfirmDelete').modal('show');
+    });
+
+    // Evento de clic para confirmar la eliminación
+    $('#confirmDeleteBtn').on('click', function() {
+        window.location.href = deleteUrl;
+    });
+    </script>
+{% endblock %}
+</body>
+</html>

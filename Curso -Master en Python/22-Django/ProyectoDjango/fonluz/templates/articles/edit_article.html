@@ -1,0 +1,85 @@
+{% extends 'layout/layout_bootstrap.html' %}
+
+{% block content %}
+<div class="border rounded-3 p-2">
+    <form method="post">
+        {% csrf_token %}
+        <div class="col-3 mb-3">
+            <label for="{{ form.article_code.id_for_label }}">Código del artículo</label>
+            {{ form.article_code }}
+
+            <label for="{{ form.article_name.id_for_label }}">Nombre del artículo</label>
+            {{ form.article_name }}
+
+            <label for="{{ form.article_type.id_for_label }}">Tipo de artículo</label>
+            {{ form.article_type }}
+
+            <label for="{{ form.category.id_for_label }}">Categoría</label>
+            {{ form.category }}
+        </div>
+        <div class="col-2 mb-3">
+            <label for="{{ form.stock.id_for_label }}">Stock</label>
+            {{ form.stock }}
+        </div>
+        <div class="mb-3">
+            <label for="{{ form.margin.id_for_label }}">Margen de ganancia</label>
+            <div class="input-group">
+                <div class="col-1">
+                    {{ form.margin }}
+                </div>
+                <span class="input-group-text" id="inputGroupPrepend" style="font-size: 16px; width: auto;">%</span>
+            </div>
+        </div>
+        <div id="formsPart" class="col-7 mb-3">
+            <label>Piezas del artículo</label>
+            {{ formset.management_form }}
+            {% for form in formset %}
+                <div class="form-row">
+                    {{ form.id }}
+                    <label for="{{ form.part.id_for_label }}">Parte</label>
+                    {{ form.part }}
+                    <label for="{{ form.quantity.id_for_label }}">Cantidad</label>
+                    {{ form.quantity }}
+                    {% if form.DELETE %}
+                        <label for="{{ form.DELETE.id_for_label }}">Eliminar</label>
+                        {{ form.DELETE }}
+                    {% endif %}
+                </div>
+            {% endfor %}
+        </div>
+        <button type="button" onclick="addInput()" class="btn btn-secondary">Agregar pieza</button>
+        <button type="submit" class="btn btn-primary">Guardar</button>
+    </form>
+</div>
+
+{% endblock %}
+
+{% block extrajs %}
+<script>
+    function addInput(){
+        var totalForms = document.querySelector('#id_articleparts_set-TOTAL_FORMS');
+        var currentCount = parseInt(totalForms.value);
+
+        var formRow = document.createElement('div');
+        formRow.classList.add('form-row');
+
+        var newPartInput = document.createElement('input');
+        newPartInput.setAttribute('type', 'text');
+        newPartInput.setAttribute('name', `articleparts_set-${currentCount}-part`);
+        newPartInput.setAttribute('id', `id_articleparts_set-${currentCount}-part`);
+        newPartInput.classList.add('form-control');
+
+        var newQuantityInput = document.createElement('input');
+        newQuantityInput.setAttribute('type', 'number');
+        newQuantityInput.setAttribute('name', `articleparts_set-${currentCount}-quantity`);
+        newQuantityInput.setAttribute('id', `id_articleparts_set-${currentCount}-quantity`);
+        newQuantityInput.classList.add('form-control');
+
+        formRow.appendChild(newPartInput);
+        formRow.appendChild(newQuantityInput);
+        document.querySelector('#formsPart').appendChild(formRow);
+
+        totalForms.value = currentCount + 1;
+    }
+</script>
+{% endblock %}

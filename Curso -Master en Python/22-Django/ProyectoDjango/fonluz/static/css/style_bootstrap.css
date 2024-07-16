@@ -1,0 +1,166 @@
+.img-fluid{
+    height: 200px;
+    margin-top: 10px;
+}
+
+#content{
+    width: 1450px;
+    min-height: 800px;
+    margin: 5px auto;
+}
+
+
+.box a{
+    font-size: 20px;
+}
+
+.article-item{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    clear: both;
+}
+
+.h2{
+    display: block;
+    font-size: 25px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.button-container {
+    display: block;
+    padding-left:20px;
+    padding-top: 10px;
+}
+
+/* Estilos para el contenedor del Select2 */
+.select2-container {
+    width: 75%; /* Ajusta el ancho según sea necesario */
+    color: #fff; /* Color de la fuente */
+    background-color: #333; /* Fondo oscuro */
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+/* Estilos para el campo de búsqueda del Select2 */
+.select2-search__field {
+    border: none; /* Elimina el borde */
+    background-color: #333; /* Fondo oscuro */
+    color: #fff; /* Color de la fuente */
+}
+
+/* Estilos para la lista desplegable del Select2 */
+.select2-dropdown {
+    border-radius: 0; /* Elimina el borde redondeado */
+    box-shadow: none; /* Elimina la sombra */
+    background-color: #333; /* Fondo oscuro */
+}
+
+/* Estilos para los elementos de la lista desplegable del Select2 */
+.select2-dropdown .select2-results__option {
+    padding: 8px 12px; /* Ajusta el espaciado interno */
+    color: #fff; /* Color de la fuente */
+}
+
+/* Estilos para el contenedor del Select2 cuando está cerrado */
+.select2-container--default .select2-selection--single {
+    background-color: #333; /* Fondo oscuro */
+    color: #fff; /* Color de la fuente */
+    border: 1px solid #ccc; /* Borde */
+}
+
+/* Estilos para el contenedor del Select2 cuando está abierto */
+.select2-container--open .select2-dropdown--below {
+    background-color: #333; /* Fondo oscuro */
+    color: #fff; /* Color de la fuente */
+}
+
+/* Estilos para el texto del elemento seleccionado */
+.s/* Estilos para el contenedor del Select2 múltiple */
+.select2-container--multiple {
+    width: 75%; /* Ajusta el ancho según sea necesario */
+    color: #fff; /* Color de la fuente */
+    background-color: #333; /* Fondo oscuro */
+}
+
+/* Estilos para el campo de búsqueda del Select2 múltiple */
+.select2-search__field {
+    border: none; /* Elimina el borde */
+    background-color: #333; /* Fondo oscuro */
+    color: #fff; /* Color de la fuente */
+}
+
+/* Estilos para la lista desplegable del Select2 múltiple */
+.select2-dropdown--multiple {
+    border-radius: 0; /* Elimina el borde redondeado */
+    box-shadow: none; /* Elimina la sombra */
+    background-color: #333; /* Fondo oscuro */
+}
+
+/* Estilos para los elementos de la lista desplegable del Select2 múltiple */
+.select2-results__option {
+    padding: 8px 12px; /* Ajusta el espaciado interno */
+    color: #fff; /* Color de la fuente */
+}
+
+/* Estilos para el contenedor del Select2 múltiple cuando está cerrado */
+.select2-container--default .select2-selection--multiple {
+    background-color: #333; /* Fondo oscuro */
+    color: #fff; /* Color de la fuente */
+    border: 1px solid #ccc; /* Borde */
+}
+
+/* Estilos para el contenedor del Select2 múltiple cuando está abierto */
+.select2-container--open .select2-dropdown--below {
+    background-color: #333; /* Fondo oscuro */
+    color: #fff; /* Color de la fuente */
+}
+
+/* Estilos para el texto del elemento seleccionado en el Select2 múltiple */
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+    background-color: #666; /* Fondo oscuro */
+    color: #fff; /* Color de la fuente */
+}
+
+/* Estilos para el botón de eliminación del elemento seleccionado en el Select2 múltiple */
+.select2-selection__choice__remove {
+    margin-right: 5px; /* Ajusta el margen derecho del botón de eliminación */
+}
+
+/* Estilos para el contenedor del Select2 múltiple cuando está abierto */
+.select2-container--open .select2-dropdown {
+    z-index: 9999; /* Ajusta el índice z para asegurarse de que esté por encima de otros elementos */
+}
+
+/* Estilos para el texto del elemento seleccionado */
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #fff !important; /* Color de la fuente */
+}
+
+.entregar-pedido-icon {
+    color: green;
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+
+.eliminar-pedido-icon {
+    color: red;
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+
+.editar-pedido-icon {
+    color: yellow;
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+
+.delete-icono {
+    font-size: 1.25rem;
+}
+
+.btn-delete {
+    padding: 0.20rem 0.55rem; /* Ajusta el tamaño del botón */
+}
