@@ -42,7 +42,6 @@ class ArticleAdmin(admin.ModelAdmin):
 
     def calculated_price(self, obj):
         if obj.pk:
-            print('CALCULANDO COSTO')
             total_cost = sum(article_part.part.cost * article_part.quantity for article_part in obj.articleparts_set.all())
             print(total_cost)
             obj.cost = total_cost

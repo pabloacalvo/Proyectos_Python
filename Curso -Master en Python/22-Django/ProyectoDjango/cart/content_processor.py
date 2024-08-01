@@ -10,3 +10,4 @@ def cart_total(request):
 
 def cart(request):
     return {'cart':Cart(request)}
+

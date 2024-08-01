@@ -1,4 +1,6 @@
 from django.db import models
+from django.forms import model_to_dict
+
 
 class Client(models.Model):
     name = models.CharField(max_length=150, verbose_name='Nombre')
@@ -17,3 +19,8 @@ class Client(models.Model):
 
     def __str__(self):
         return f'{self.id} {self.name} {self.surname}'
+
+    def toJSON(self):
+        client = model_to_dict(self)
+        client['status'] = self.status
+        return client

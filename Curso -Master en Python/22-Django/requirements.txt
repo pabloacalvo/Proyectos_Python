@@ -1,0 +1,3 @@
+pip install django-select2
+pip install django-ckeditor
+python -m pip install Pillow"

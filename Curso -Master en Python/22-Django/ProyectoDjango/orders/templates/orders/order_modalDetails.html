@@ -11,17 +11,19 @@
                 <table class="table table-striped table-hover">
                     <thead class="table-warning">
                     <tr>
-                        <th style="width: 50px;">ID</th>
-                        <th style="width: 150px;">Producto</th>
-                        <th style="width: 100px;">Cantidad</th>
-                        <th style="width: 120px;">Precio unitario</th>
-                        <th style="width: 120px;">Total</th>
-                        <th style="width: 60px;">Eliminar</th>
+                        <th>ID</th>
+                        <th>Producto</th>
+                        <th>Cantidad</th>
+                        <th>Precio unitario</th>
+                        <th>Total</th>
+                        <th>Eliminar</th>
                     </tr>
                     </thead>
                     <tbody>
                     {{ formset.management_form }}
+                    {% if formset.errors %}
                     {{ formset.errors }}
+                    {% endif %}
                     {% for form in formset %}
                         <tr>
                             <td>{{ form.instance.article.id }}</td>

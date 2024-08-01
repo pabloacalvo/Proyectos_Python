@@ -1,17 +1,15 @@
 <!DOCTYPE html>
 {% extends 'layout/layout_bootstrap.html' %}
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-
-
+<html lang="ea">
 
 <body>
-{% block articleTitle %}
+{% block title %}
+    {{ title }}
+{% endblock %}
+{% block h1Title %}
+    {{ title }}
+{% endblock %}
 
-{%  endblock %}
 
 {% block content %}
     <div class="border rounded-3 p-2">

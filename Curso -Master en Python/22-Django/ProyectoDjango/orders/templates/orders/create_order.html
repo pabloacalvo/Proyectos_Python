@@ -79,6 +79,10 @@
         <label for="{{ form.status.id_for_label }}">Estado</label>
         {{ form.status }}
     </div>
+    <div class="mb-3">
+        <label for="{{ form.delivery_date.id_for_label }}">Fecha de entrega</label>
+        {{ form.delivery_date }}
+    </div>
     <input class="btn btn-primary mt-4" type="submit" value="Confirmar">
     {% csrf_token %}
 </form>

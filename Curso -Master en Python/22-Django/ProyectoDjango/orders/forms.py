@@ -1,9 +1,12 @@
 from django import forms
-from django.forms import inlineformset_factory
+from django.forms import inlineformset_factory, DateInput
 from django_select2.forms import Select2Widget
 
 from .models import Order, OrderStatus, OrderItem
 
+
+class DateTimeInput(forms.DateTimeInput):
+    input_type = 'datetime-local'
 
 class OrderItemsForm(forms.ModelForm):
     class Meta:
@@ -26,15 +29,15 @@ class OrderCreateForm(forms.ModelForm):
 
     class Meta:
         model = Order
-        fields = ['client','status','discount']
+        fields = ['client','status','discount','delivery_date']
         widgets = {
             'client': Select2Widget(attrs={
-                    'class': 'form-control mb-3',
+                    'class': 'form-control custom-width',
                     'required':'required',
                     'placeholder':'Cliente'
                 }),
                     'status': Select2Widget(attrs={
-                    'class': 'form-control mb-3',
+                    'class': 'form-control custom-width',
                     'data-minimum-input-length': '0',
                     'data-theme': 'default',
                     'data-allow-clear': 'true',
@@ -42,8 +45,12 @@ class OrderCreateForm(forms.ModelForm):
                     'required': 'required',
                 }),
             'discount': forms.TextInput(
-             attrs={'class': 'form-control',
-                    'placeholder': 'Descuento'})
+             attrs={'class': 'form-control custom-width',
+                    'placeholder': 'Descuento'}),
+            'delivery_date': forms.DateInput(
+                format='%Y-%m-%d',
+                attrs={'type': 'date', 'class': 'form-control picker-fecha-entrega', 'placeholder': 'Fecha de entrega'}
+            )
         }
 
     def __init__(self, *args, **kwargs):

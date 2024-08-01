@@ -38,17 +38,18 @@ class Cart:
         articles = Article.objects.filter(id__in=articles_ids)
         cart = self.cart.copy()
         for article in articles:
-            cart[str(article.id)]['article'] = article
+            cart[str(article.id)]['article'] = article.toJSON()
         for item in cart.values():
-            item['price'] = Decimal(item['price'])
-            item['total_price'] = item['price'] * item['quantity']
+            item['price'] = float(item['price'])
+            item['total_price'] = (item['price'] * item['quantity']).__round__(2)
+            item['quantity'] = str(item['quantity'])
             yield item
 
     def __len__(self):
-        return sum(item['quantity'] for item in self.cart.values())
+        return sum(int(item['quantity']) for item in self.cart.values())
 
     def get_total_price(self):
-        return sum(Decimal(item['price']) * item['quantity'] for item in self.cart.values())
+        return sum(Decimal(item['price']) * int(item['quantity']) for item in self.cart.values())
 
     def clear(self):
         del self.session[settings.CART_SESSION_ID]

@@ -1,18 +1,9 @@
-<!DOCTYPE html>
 {% extends 'layout/layout_bootstrap.html' %}
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    {% block title %}
-        {{ title }}
-    {% endblock %}
-</head>
-<body>
-{% block seccion %}
-    Crear pedido
+{% block title %}
+    {{ title }}
 {% endblock %}
-{% block articleTitle %}
-    {{ subtitle }}
+{% block h1Title %}
+    {{ title }}
 {% endblock %}
 
 {% block content %}
@@ -90,5 +81,3 @@
 
         </div>
 {% endblock %}
-</body>
-</html>

@@ -1,0 +1,35 @@
+{% extends 'layout/layout_bootstrap.html' %}
+{% load static %}
+{% block title %}
+    {{ title }}
+{% endblock %}
+{% block h1Title %}
+    {{ title }}
+{% endblock %}
+{% block content %}
+<div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+    <div class="table-responsive">
+        <table id="datatable-articles" class="table" data-url-article="{% url 'article' 0 %}" data-url-edit-article="{% url 'edit_article' 0 %}">
+            <thead class="table-primary">
+                <tr>
+                    <th class="centered">Código</th>
+                    <th class="centered">Nombre</th>
+                    <th class="centered">Categoría</th>
+                    <th class="centered">Costo</th>
+                    <th class="centered">Margen</th>
+                    <th class="centered">Precio de venta</th>
+                    <th class="centered">Stock</th>
+                    <th class="centered">Ultima actualización</th>
+                    <th class="centered">Opciones</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody-articles"></tbody>
+        </table>
+    </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="modalDetail" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true"></div>
+{% endblock %}
+{% block extrajs %}
+<script src="{% static 'js/listarArticulos.js' %}"></script>
+{% endblock %}
