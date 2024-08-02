@@ -1,0 +1,49 @@
+{% extends 'layout/layout_bootstrap.html' %}
+{% load static %}
+{% block title %}
+    {{ title }}
+{% endblock %}
+{% block h1Title %}
+    {{ title }}
+{% endblock %}
+{% block content %}
+    <div class="row">
+        <div class="col-6">
+            <h3 id="subtitulos">Articulos pedidos con faltante de stock</h3>
+            <div class="table-responsive">
+                <table id="datatable-orderItems" class="table table-sm table-bordered table-striped table-hover table-warning">
+                    <thead class="table-primary">
+                    <tr>
+                        <th class="centered">N° de pedido</th>
+                        <th class="centered">Articulo</th>
+                        <th class="centered">Stock actual</th>
+                        <th class="centered">Cantidad pedida</th>
+                    </tr>
+                    </thead>
+                        <tbody id="tableBody-orderItems"></tbody>
+                </table>
+            </div>
+        </div>
+        <div class="col-6">
+            <h3 id="subtitulos">Proximas entregas</h3>
+            <div class="table-responsive">
+                <table id="datatable-orderDeliveries" class="table table-sm table-bordered table-striped table-hover table-warning">
+                    <thead class="table-primary">
+                    <tr>
+                        <th class="centered">N° de pedido</th>
+                        <th class="centered">Cliente</th>
+                        <th class="centered">Estado</th>
+                        <th class="centered">Fecha de entrega</th>
+                    </tr>
+                    </thead>
+                    <tbody id="tableBody-orderDeliveries"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+ {% include 'layout/index_articlesData.html' %}
+
+{% endblock %}
+{% block extrajs %}
+<script src="{% static 'js/index.js' %}"></script>
+{% endblock %}

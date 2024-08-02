@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+{% extends 'layout/layout_bootstrap.html' %}
+<html lang="ea">
+
+<body>
+{% block title %}
+    {{ title }}
+{% endblock %}
+{% block h1Title %}
+    {{ title }}
+{% endblock %}
+
+
+{% block content %}
+    <div class="border rounded-3 p-2">
+        <form method="post">
+            {% csrf_token %}
+            <!-- Renderiza los campos del formulario sin etiquetas -->
+        <div class="col-3 mb-3">
+            <label for="{{ form.article_code.id_for_label }}">Código del artículo</label>
+            {{ form.article_code }}
+            <label for="{{ form.article_name.id_for_label }}">Nombre del artículo</label>
+            {{ form.article_name }}
+            <label for="{{ form.article_type.id_for_label }}">Tipo de artículo</label>
+            {{ form.article_type }}
+            <label for="{{ form.category.id_for_label }}">Categoría</label>
+            {{ form.category }}
+        </div>
+        <div class="col-2 mb-3">
+            <label for="{{ form.stock.id_for_label }}">Stock</label>
+            {{ form.stock }}
+        </div>
+            <div class="mb-3">
+                <label for="{{ form.margin.id_for_label }}">Margen de ganancia</label>
+                <div class="input-group">
+                    <div class="col-1">
+                        {{ form.margin }}
+                    </div>
+                    <span class="input-group-text" id="inputGroupPrepend" style="font-size: 16px; width: auto;">%</span>
+                </div>
+            </div>
+            <div id="formsPart" class="col-7 mb-3">
+                <label>Piezas del articulo</label>
+                {{ formset.management_form }}
+                {% for form in formset %}
+                    {{ form.id }}
+                    {{ form.part }}
+                    {{ form.quantity }}
+                {% endfor %}
+            </div>
+            <button type="submit" onclick="addInput()" class="btn btn-secondary">Agregar pieza</button>
+            <button type="submit" class="btn btn-primary">Guardar</button>
+        </form>
+    </div>
+{% endblock %}
+
+{% block extrajs %}
+
+    <script>
+        $(document).ready(function() {
+            $('#selectCategory').select2();
+            $('#selectParts').select2();
+            $('#selectType').select2();
+            $('#parte_necesaria').select2();
+        });
+
+        function addInput(){
+            var forms = document.querySelector('#id_articleparts_set-TOTAL_FORMS');
+            var newinput = document.querySelector('#id_articleparts_set-0-part').cloneNode( true );
+            var newinputQuantity = document.querySelector('#id_articleparts_set-0-quantity').cloneNode( true );
+            newinput.name = 'articleparts_set-' + forms.value + '-part';
+            newinput.id = 'articleparts_set-' + forms.value + '-part';
+            newinputQuantity.name = 'articleparts_set-' + forms.value + '-quantity';
+            newinputQuantity.id = 'articleparts_set-' + forms.value + '-quantity';
+            document.querySelector('#formsPart').appendChild(newinput)
+            document.querySelector('#formsPart').appendChild(newinputQuantity)
+            forms.value = parseInt(forms.value) + 1;
+        }
+    </script>
+{% endblock %}
+</body>
+</html>

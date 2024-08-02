@@ -1,0 +1,59 @@
+{% extends 'layout/layout_bootstrap.html' %}
+{% load static %}
+{% block title %}
+    {{ title }}
+{% endblock %}
+{% block h1Title %}
+    {{ title }}
+{% endblock %}
+{% block content %}
+<div id="messages">
+    <!--contenedor de mensajes de agregar o quitar productos-->
+</div>
+<div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+    <div class="table-responsive">
+        <table id="datatable-orders" class="table" data-url-deliver-order="{% url 'orders:deliver_order' 0 %}" data-url-delete-order="{% url 'orders:delete_order' 0 %}" data-url-edit-order="{% url 'orders:edit_order' 0 %}">
+            <thead class="table-warning">
+                <tr>
+                    <th class="centered">ID</th>
+                    <th class="centered">Fecha de entrega</th>
+                    <th class="centered">Cliente</th>
+                    <th class="centered">Descuento</th>
+                    <th class="centered">Total</th>
+                    <th class="centered">Estado</th>
+                    <th class="centered">Última modificación</th>
+                    <th class="centered">Opciones</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody-orders"></tbody>
+        </table>
+    </div>
+</div>
+    <!-- Modal editar pedido -->
+<div class="modal fade" id="modalDetail" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true"></div>
+
+
+    <!--Modal entregar pedido-->
+
+<div class="modal fade" id="modal-entregar-pedido" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Entregar pedido</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ¿Entregar el pedido?
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+        <button type="button" class="btn btn-primary">Confirmar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
+{% block extrajs %}
+<script src="{% static 'js/gestionOrdenes.js' %}"></script>
+{% endblock %}

@@ -1,0 +1,300 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem; /* 1rem ahora será igual a 14px */
+
+}
+html {
+    font-size: 14px; /* Ajusta el tamaño de la fuente base */
+}
+
+.alert-info {
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+    color: #31708f;
+}
+
+.img-fluid{
+    height: 200px;
+    margin-top: 10px;
+}
+
+#content{
+    width: 1450px;
+    min-height: 800px;
+    margin: 5px auto;
+}
+
+.titulo-principal {
+    color: #2ba977;
+    font-family: "Playwrite AR", cursive;
+    font-size: 1.8rem;
+    margin-left: 5px;
+}
+
+.page-link {
+    background-color: #2ba977; !important;/* Fondo verde */
+    color: #fff; /* Letras blancas */
+    border: 1px solid #2ba977; /* Borde del mismo color que el fondo */
+    border-radius: 4px; /* Redondea las esquinas */
+    padding: 5px 10px; /* Añade padding */
+    margin: 0 2px; /* Añade margen entre los botones */
+    text-decoration: none; /* Quita el subrayado */
+    display: inline-block; /* Asegura que se muestren en línea */
+}
+
+/* Cambia el color de fondo cuando se pasa el mouse sobre los botones */
+.page-link:hover {
+    background-color: #249863; /* Color más oscuro al pasar el ratón */
+    color: #fff; /* Letras blancas */
+}
+
+/* Cambia el color de fondo del botón activo */
+.page-link.active {
+    background-color: #1e8656; /* Color diferente para el botón activo */
+    color: #fff; /* Letras blancas */
+    border-color: #1e8656; /* Borde del mismo color que el fondo activo */
+}
+
+
+
+.box a{
+    font-size: 20px;
+}
+
+.article-item{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    clear: both;
+}
+
+.h2{
+    display: block;
+    font-size: 25px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#subtitulos {
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #2ba977 !important;
+}
+
+.button-container {
+    display: block;
+    padding-left:20px;
+    padding-top: 10px;
+}
+
+/* Estilos para el contenedor del Select2 */
+.select2-container {
+    width: 75%; /* Ajusta el ancho según sea necesario */
+    color: #fff; /* Color de la fuente */
+    background-color: #333; /* Fondo oscuro */
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+/* Estilos para el campo de búsqueda del Select2 */
+.select2-search__field {
+    border: none; /* Elimina el borde */
+    background-color: #333; /* Fondo oscuro */
+    color: #fff; /* Color de la fuente */
+}
+
+/* Estilos para la lista desplegable del Select2 */
+.select2-dropdown {
+    border-radius: 0; /* Elimina el borde redondeado */
+    box-shadow: none; /* Elimina la sombra */
+    background-color: #333; /* Fondo oscuro */
+}
+
+/* Estilos para los elementos de la lista desplegable del Select2 */
+.select2-dropdown .select2-results__option {
+    padding: 8px 12px; /* Ajusta el espaciado interno */
+    color: #fff; /* Color de la fuente */
+}
+
+/* Estilos para el contenedor del Select2 cuando está cerrado */
+.select2-container--default .select2-selection--single {
+    background-color: #333; /* Fondo oscuro */
+    color: #fff; /* Color de la fuente */
+    border: 1px solid #ccc; /* Borde */
+}
+
+/* Estilos para el contenedor del Select2 cuando está abierto */
+.select2-container--open .select2-dropdown--below {
+    background-color: #333; /* Fondo oscuro */
+    color: #fff; /* Color de la fuente */
+}
+
+/* Estilos para el texto del elemento seleccionado */
+.s/* Estilos para el contenedor del Select2 múltiple */
+.select2-container--multiple {
+    width: 75%; /* Ajusta el ancho según sea necesario */
+    color: #fff; /* Color de la fuente */
+    background-color: #333; /* Fondo oscuro */
+}
+
+/* Estilos para el campo de búsqueda del Select2 múltiple */
+.select2-search__field {
+    border: none; /* Elimina el borde */
+    background-color: #333; /* Fondo oscuro */
+    color: #fff; /* Color de la fuente */
+}
+
+/* Estilos para la lista desplegable del Select2 múltiple */
+.select2-dropdown--multiple {
+    border-radius: 0; /* Elimina el borde redondeado */
+    box-shadow: none; /* Elimina la sombra */
+    background-color: #333; /* Fondo oscuro */
+}
+
+/* Estilos para los elementos de la lista desplegable del Select2 múltiple */
+.select2-results__option {
+    padding: 8px 12px; /* Ajusta el espaciado interno */
+    color: #fff; /* Color de la fuente */
+}
+
+/* Estilos para el contenedor del Select2 múltiple cuando está cerrado */
+.select2-container--default .select2-selection--multiple {
+    background-color: #333; /* Fondo oscuro */
+    color: #fff; /* Color de la fuente */
+    border: 1px solid #ccc; /* Borde */
+}
+
+/* Estilos para el contenedor del Select2 múltiple cuando está abierto */
+.select2-container--open .select2-dropdown--below {
+    background-color: #333; /* Fondo oscuro */
+    color: #fff; /* Color de la fuente */
+}
+
+/* Estilos para el texto del elemento seleccionado en el Select2 múltiple */
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+    background-color: #666; /* Fondo oscuro */
+    color: #fff; /* Color de la fuente */
+}
+
+/* Estilos para el botón de eliminación del elemento seleccionado en el Select2 múltiple */
+.select2-selection__choice__remove {
+    margin-right: 5px; /* Ajusta el margen derecho del botón de eliminación */
+}
+
+/* Estilos para el contenedor del Select2 múltiple cuando está abierto */
+.select2-container--open .select2-dropdown {
+    z-index: 9999; /* Ajusta el índice z para asegurarse de que esté por encima de otros elementos */
+}
+
+/* Estilos para el texto del elemento seleccionado */
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #fff !important; /* Color de la fuente */
+}
+
+.entregar-pedido {
+    color: green;
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+
+.eliminar-pedido-icon {
+    color: red;
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+
+.editar-pedido-icon {
+    color: yellow;
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+
+.delete-icono {
+    font-size: 1.25rem;
+}
+
+.btn-delete {
+    padding: 0.20rem 0.55rem; /* Ajusta el tamaño del botón */
+}
+
+.centered {
+    text-align: center !important;
+    vertical-align: middle !important;
+}
+
+
+.sidebar {
+    background-color: #344040;
+    min-height: 100vh;
+    border-right: 2px solid #2ba977;
+    font-size: 0.75rem;
+    font-family: 'Roboto', sans-serif;
+     width: 205px;
+}
+
+#tituloSidebar {
+    font-family: "Playwrite AR", cursive;
+    font-optical-sizing: auto;
+}
+
+.sidebar .nav-link span {
+    font-size: 0.75rem;
+}
+
+.sidebar .nav-link i {
+    font-size: 0.875rem;
+}
+
+.sidebar a {
+    color: #fff;
+}
+
+.sidebar a:hover {
+    background-color: #2ba977;
+    box-shadow: 0px 0px 5px #444 inset;
+    color: white;
+    transition: all 300ms;
+}
+
+.sidebar .nav-link {
+    padding: 0.25rem 0.50rem; /* Padding reducido */
+    margin: 0.125rem 0; /* Margen reducido */
+}
+
+.sidebar .nav-link:hover {
+    border-radius: 5px;
+}
+
+/* Estilo general para los enlaces de menú */
+.nav-link.menu-toggle {
+    color: white; /* Color del texto */
+    text-decoration: none; /* Elimina el subrayado */
+    padding: 0.75rem 1rem; /* Espaciado interno */
+}
+
+
+/* Estilo cuando el menú está activo */
+.nav-link.menu-toggle.collapsed {
+    background-color: #343a40; /* Color de fondo cuando está colapsado */
+}
+
+/* Estilo para el enlace de los submenús */
+.nav-link.menu-toggle + .collapse .nav-link {
+    font-size: 1.2rem; /* Tamaño de fuente para los elementos del submenú */
+    color: #adb5bd; /* Color de texto de los submenús */
+}
+
+/* Estilo para el submenú desplegado */
+.collapse.show {
+    padding: 0.5rem 0; /* Espaciado interno del submenú */
+}
+
+.picker-fecha-entrega{
+    max-width: 200px;
+}
+
+.custom-width {
+    max-width: 300px; /* ajusta el ancho como prefieras */
+}

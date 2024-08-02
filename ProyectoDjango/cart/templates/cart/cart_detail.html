@@ -1,0 +1,22 @@
+<!-- cart_detail.html -->
+<div id="messages">
+    <!--contenedor de mensajes de agregar o quitar productos-->
+</div>
+<table class="table table-striped table-hover">
+    <thead class="table">
+    <tr>
+        <th>Codigo</th>
+        <th>Articulo</th>
+        <th>Cantidad</th>
+        <th>Precio unitario</th>
+        <th>Precio total</th>
+    </tr>
+    </thead>
+    <tbody id="cart-items">
+        <!-- contenido del carrito de compras-->
+    </tbody>
+</table>
+<div class="button-container">
+    <a href="{% url 'cart_clean' %}" class="btn btn-primary btn-warning mr-2"><i class="bi bi-cart-x-fill"></i>Limpiar</a>
+    <a href="{% url 'orders:order_create' %}" class="btn btn-secondary btn-success"><i class="bi bi-cart4"></i>Confirmar</a>
+</div>
