@@ -4,6 +4,8 @@ from django.db.models import Q
 from .forms import FormArticle, RegisterForm
 from django.contrib import messages
 from django.contrib.auth.forms import UserCreationForm
+from django.contrib.auth import authenticate, login,logout
+from django.contrib.auth.decorators import login_required
 
 # Create your views here.
 # MVC= MODELO VISTA CONTROLADOR se ejecutan acciones (métodos) es lo mismo que MVT solo que a la vista se la llama template y al controlador vista.
@@ -76,7 +78,7 @@ def index(request):
 
     # return HttpResponse(layout+html) #se concateca layout para que aparezca en todas las páginas
 
-    return render(request, 'index.html',{
+    return render(request, 'index.html', {
         'title':'Pagina de inicio',
         'mi_variable': 'soy un dato que esta en la vista',
         'nombre':nombre,
@@ -86,12 +88,12 @@ def index(request):
 
     #return render(request, 'index.html')
 
-
+@login_required(login_url='login')
 def crear_articulo(request, title,content,public):
     articulo = Article(
         title=title,
         content=content,
-        public = public
+        public=public
     )
 
     articulo.save()
@@ -122,6 +124,7 @@ def save_article(request):
 def create_article(request):
     return render(request, 'create_article.html')
 
+@login_required(login_url='login')
 def create_full_article(request):
 
     if request.method == 'POST':
@@ -168,7 +171,7 @@ def editar_articulo(request, id):
 
     return HttpResponse(f"El articulo {articulo.title} fue editado")
 
-
+@login_required(login_url='login')
 def articulos(request):
 
     # UTILIZAR ESTA CAPA DE ABSTRACCION DE DJANGO TIENE COMO BENEIFICIO QUE AL CAMBIAR DE MOTOR DE BASE DE DATOS
@@ -203,7 +206,7 @@ def articulos(request):
         'articulos':articulos
     })
 
-
+@login_required(login_url='login')
 def borrar_articulo(request,id):
     articulo = Article.objects.get(pk=id)
     articulo.delete()
@@ -211,14 +214,38 @@ def borrar_articulo(request,id):
     return redirect('articulos')
 
 def register_page(request):
-    register_form = RegisterForm()
-    if request.method == 'POST':
-        register_form = RegisterForm(request.POST)
-        if register_form.is_valid():
-            register_form.save()
-            return redirect('/inicio')
+    if request.user.is_authenticated:
+        return redirect('index')
+    else:
+        register_form = RegisterForm()
+        if request.method == 'POST':
+            register_form = RegisterForm(request.POST)
+            if register_form.is_valid():
+                register_form.save()
+                return redirect('/inicio')
 
-    return render(request, 'register.html', {
-        'title':'Registro',
-        'register_form':register_form
-    })
+        return render(request, 'register.html', {
+            'title':'Registro',
+            'register_form':register_form
+        })
+
+def login_page(request):
+    if request.user.is_authenticated:
+        return redirect('index')
+    else:
+        if request.method == 'POST':
+            username = request.POST['username']
+            password = request.POST['password']
+            user = authenticate(request, username=username, password=password)
+            if user is not None:
+                login(request, user)
+                return redirect('index')
+            else:
+                messages.warning(request,'No te has identificado correctamente')
+
+        return render(request, 'login.html', {'title':'Identificate'})
+
+def logout_user(request):
+    logout(request)
+
+    return redirect('login')

@@ -20,7 +20,9 @@ urlpatterns = [
         path('save-article/', views.save_article, name='save'),
         path('create-article/', views.create_article, name='create'),
         path('create-full-article/', views.create_full_article, name='create_full'),
-        path('registro/', views.register_page, name='register')
+        path('registro/', views.register_page, name='register'),
+        path('login/', views.login_page, name='login'),
+        path('logout/',views.logout_user,name='logout'),
 
 ]
 

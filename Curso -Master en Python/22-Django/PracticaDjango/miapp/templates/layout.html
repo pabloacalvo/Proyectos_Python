@@ -28,27 +28,37 @@
             <li>
                 <a href="{% url 'index' %}">Inicio</a>
             </li>
-            <li>
-                <a href="{% url 'articulos' %}">Articulos</a>
-            </li>
-             <li>
-                <a href="{% url 'create' %}">Crear articulo</a>
-            </li>
-             <li>
-                <a href="{% url 'create_full' %}">Crear articulo 2</a>
-            </li>
-            <li>
-                <a href="{% url 'hola_mundo' %}">Hola Mundo</a>
-            </li>
-            <li>
-                <a href="{% url 'pagina' %}">Web</a>
-            </li>
-            <li>
-                <a href="{% url 'contacto' 'Pablo' 'Calvo' %}">Contacto</a>
-            </li>
-             <li>
-                <a href="{% url 'register' %}">Registro</a>
-            </li>
+             {% if user.email%}
+             
+                <li>
+                    <a href="{% url 'articulos' %}">Articulos</a>
+                </li>
+                 <li>
+                    <a href="{% url 'create' %}">Crear articulo</a>
+                </li>
+                 <li>
+                    <a href="{% url 'create_full' %}">Crear articulo 2</a>
+                </li>
+                <li>
+                    <a href="{% url 'hola_mundo' %}">Hola Mundo</a>
+                </li>
+                <li>
+                    <a href="{% url 'pagina' %}">Web</a>
+                </li>
+                <li>
+                    <a href="{% url 'contacto' 'Pablo' 'Calvo' %}">Contacto</a>
+                </li>
+                 <li>
+                    <a href="{% url 'logout' %}">Cerrar sesion</a>
+                </li>
+             {% else %}
+                 <li>
+                    <a href="{% url 'register' %}">Registro</a>
+                </li>
+                <li>
+                    <a href="{% url 'login' %}">Login</a>
+                </li>
+             {% endif %}
     </ul>
     </nav>
     <div class="barra">

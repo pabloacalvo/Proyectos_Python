@@ -259,12 +259,18 @@ footer{
     color:red;
 }
 
-.message{
+.message,
+.alert-success,
+.alert{
     padding:20px;
     color: white;
     background: #2ba977;
     text-align: center;
     margin-bottom: 10px;
+}
+
+.alert-warning{
+    background: red;
 }
 
 .entregar-icon {
